@@ -2,7 +2,7 @@ name: Mettre à jour le README avec les repositories GitHub
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Exécute tous les jours à minuit UTC
+    - cron: "0 0 * * *"  # Exécute tous les jours à minuit UTC
   workflow_dispatch:  # Permet d'exécuter manuellement
 
 jobs:
