@@ -30,3 +30,5 @@ if __name__ == "__main__":
     repos = fetch_repos()
     if repos:
         generate_readme(repos)
+        with open("README.md", "a") as f:
+    f.write("\n<!-- Mise à jour: Vérification -->")
