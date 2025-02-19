@@ -2,7 +2,7 @@ import requests
 import os
 
 GITHUB_USERNAME = "trh4ckn0n"
-TOKEN = os.getenv("GITHUB_TOKEN")  # Assurez-vous que le token est stocké dans les secrets GitHub
+TOKEN = os.getenv("MY_GITHUB_TOKEN")
 
 API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
 
