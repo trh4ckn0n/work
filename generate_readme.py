@@ -30,8 +30,46 @@ else:
 readme_content = f"""  
 <h1 align="center">😈 Bienvenue sur mon GitHub !</h1>
 
-<p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+trh4ckn0n;" alt="Typing SVG"/>
+<img width=100% title="TRHACKNON" alt="TRHACKNON" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ANONYMOUS-🔰-TRHACKNON&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=45"/>
+
+<img
+  src="https://github.com/trh4ckn0n/avinal/blob/main/images/stat.svg"
+  alt="Alternative Text"
+/>
+
+<table border="0">
+ <tr>
+    <td>
+      <br>
+     <style>
+    .neon-container {
+        background-color: #0D1117;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    }
+    .neon-container img {
+        border-radius: 10px;
+        border: 2px solid #39FF14;
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    }
+    .neon-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 30px;
+        color: #39FF14;
+        background-color: #000000;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+    }
+</style>
+<div class="neon-container" align="center">
+    <img width="280" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15"/>
+</div>
+
+<!-- Texte animé -->
+<p class="neon-text" align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+CTF+Player;" />
 </p>
 
 <p align="center">
@@ -41,7 +79,6 @@ readme_content = f"""
 <p align="center">
     <img width="150" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Profile Visitors Badge"/>
 </p>
-<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=viridescent"/>
 
 <p align="center">
     👾 Passionné par la cybersécurité et le développement  
