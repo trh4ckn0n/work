@@ -29,7 +29,7 @@ readme_content += "Voici une liste de mes repositories GitHub avec des détails 
 
 # Ajouter des badges au début du README
 readme_content += """
-![Maj le README avec les repositories GitHub](https://github.com/trh4ckn0n/work/actions/workflows/update_readme.yml/badge.svg?event=workflow_run)](https://github.com/trh4ckn0n/work/actions/workflows/update_readme.yml)
+[![Maj le README avec les repositories GitHub](https://github.com/trh4ckn0n/work/actions/workflows/update_readme.yml/badge.svg?event=workflow_run)](https://github.com/trh4ckn0n/work/actions/workflows/update_readme.yml)
 ![Last Commit](https://img.shields.io/github/last-commit/trh4ckn0n/work?style=flat-square)
 ![Stars](https://img.shields.io/github/stars/trh4ckn0n/work?style=flat-square)
 ![Forks](https://img.shields.io/github/forks/trh4ckn0n/work?style=flat-square)
