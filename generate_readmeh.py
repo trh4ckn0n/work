@@ -38,8 +38,10 @@ with open("README.html", "w") as f:
     f.write('a { color: #1a73e8; text-decoration: none; }\n')
     f.write('a:hover { text-decoration: underline; }\n')
     f.write('</style>\n')
+    f.write("<link rel='stylesheet' href='https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/style.css'>\n")
     f.write("</head>\n")
     f.write("<body>\n")
+    f.write("<p data-text='TRHACKNON'>TRHACKNON</p>\n")
     f.write("<h1>Liste des Repositories GitHub</h1>\n")
     
     if repos:
@@ -61,6 +63,7 @@ with open("README.html", "w") as f:
     else:
         f.write("<p>Aucun repository trouvé.</p>\n")
     
+    f.write("<script  src='https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/script.js'></script>\n")
     f.write("</body>\n")
     f.write("</html>\n")
 
