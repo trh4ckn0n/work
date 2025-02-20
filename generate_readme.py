@@ -41,35 +41,12 @@ readme_content = f"""
  <tr>
     <td>
       <br>
-     <style>
-    .neon-container {
-        background-color: #0D1117;
-        border-radius: 10px;
-        padding: 15px;
-        box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
-    }
-    .neon-container img {
-        border-radius: 10px;
-        border: 2px solid #39FF14;
-        box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
-    }
-    .neon-text {
-        font-family: 'Fira Code', monospace;
-        font-size: 30px;
-        color: #39FF14;
-        background-color: #000000;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
-    }
-</style>
-<div class="neon-container" align="center">
-    <img width="280" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15"/>
-</div>
 
-<!-- Texte animé -->
-<p class="neon-text" align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+CTF+Player;" />
+<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15"/>
+
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+CTF+Player;" 
+    style="border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 </p>
 
 <p align="center">
