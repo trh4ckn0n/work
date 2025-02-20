@@ -28,37 +28,50 @@ else:
 
 # Générer un README stylé
 readme_content = f"""  
-<h1 align="center">😈 Bienvenue sur mon GitHub !</h1>
+<h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+CTF+Player;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=FF5733&background=000000&center=true&vCenter=true&width=550&height=70&lines=Hi+Im+TRHACKNON" 
+    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+</p>
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋" 
+    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+</p>
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=00FFFF&background=000000&center=true&vCenter=true&width=550&height=70&lines=Cybersecurity+%26+Development" 
+    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+</p>
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=6400&color=FF00FF&background=000000&center=true&vCenter=true&width=550&height=70&lines=Pentester+|+Coder+|+Hacktivist" 
+    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 </p>
 
 <p align="center">
-    <img src="https://github.com/trh4ckn0n.png" width="120" alt="Avatar">
+    <img src="https://github.com/trh4ckn0n.png" width="120" alt="Avatar" style="border-radius: 50%; border: 3px solid #39FF14; box-shadow: 0 0 15px #39FF14;"/>
 </p>
 
 <p align="center">
-    <img width="150" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Profile Visitors Badge"/>
+    <img width="150" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Profile Visitors Badge" style="border: 2px solid #39FF14;"/>
 </p>
-<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15"/>
 
+<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15" 
+style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 
-<p align="center">
+<p align="center" style="color: #39FF14; font-size: 1.2em; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">
     👾 Passionné par la cybersécurité et le développement  
     🌟 Toujours en train d'expérimenter de nouveaux outils  
     🚀 Voici un aperçu de mes projets GitHub !  
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
-
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
 
 ### 📂 Mes Repositories
 | 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ |
 |--------|--------------|------------|---------|---------|---------------|
 """
 
-# Ajouter les repositories sous forme de tableau
+# Ajouter les repositories sous forme de tableau avec style fluo
 for repo in repos:
     name = repo['name']
     description = repo['description'] or "Aucune description"
@@ -67,8 +80,9 @@ for repo in repos:
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
 
-    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
+    readme_content += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
 
+# Ajouter les repositories sous forme de tableau
 # Ajouter une section de contact
 readme_content += """
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
