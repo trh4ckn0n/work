@@ -2,83 +2,78 @@ import os
 import requests
 from datetime import datetime
 
-# Obtenir le token d'authentification depuis les secrets GitHub
+# Obtenir le token GitHub depuis les variables d'environnement
 GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
 GITHUB_USERNAME = "trh4ckn0n"
 
-# API GitHub pour obtenir les repositories
+# URL de l'API pour récupérer tous les repos de l'utilisateur
 GITHUB_API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
 
-# Headers avec le token d'authentification
+# Headers pour l'authentification
 headers = {
-    "Authorization": f"Bearer {GITHUB_TOKEN}",
+    "Authorization": f"token {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.v3+json"
 }
 
-# Faire la requête pour obtenir les repos
+# Effectuer la requête pour récupérer les repositories
 response = requests.get(GITHUB_API_URL, headers=headers)
 
-# Vérifier si la réponse est correcte
-if response.status_code != 200:
-    print(f"Erreur: {response.status_code} - {response.json().get('message', 'Erreur inconnue')}")
-    exit(1)
+# Vérifier la réponse
+if response.status_code == 200:
+    repos = response.json()
+elif response.status_code == 401:
+    raise Exception("⚠️ Erreur d'authentification : Vérifie ton token GitHub.")
+else:
+    raise Exception(f"❌ Erreur API GitHub: {response.status_code}")
 
-repos = sorted(response.json(), key=lambda r: r['updated_at'], reverse=True)
+# Générer un README stylé
+readme_content = f"""  
+<h1 align="center">🚀 Bienvenue sur mon GitHub !</h1>
+<p align="center">
+    <img src="https://github.com/trh4ckn0n.png" width="120" alt="Avatar">
+</p>
 
-# Créer le contenu du README
-readme_content = f"""
-# 🚀 Bienvenue sur mon GitHub, je suis {GITHUB_USERNAME} !
-
-```python
-   _____ _          _    _                
-  |_   _| |_  __ _ | |_ (_)__ _ _ _ _  _  
-    | | | ' \/ _` ||  _|| / _` | '_| || |
-    |_| |_||_\__,_| \__||_\__,_|_|  \_, |
-                                    |__/ 
-```
-
-Je suis passionné par le développement, la cybersécurité et le hacking éthique. Découvrez mes projets et explorations techniques ci-dessous !
-
----
-## 📊 Mes Statistiques GitHub
-
-![Profil Views](https://komarev.com/ghpvc/?username={GITHUB_USERNAME}&color=blue)
-![Followers](https://img.shields.io/github/followers/{GITHUB_USERNAME}?style=social)
-![Stars](https://img.shields.io/github/stars/{GITHUB_USERNAME}?style=social)
+<p align="center">
+    🔥 Passionné par la cybersécurité et le développement  
+    🌟 Toujours en train d'expérimenter de nouveaux outils  
+    🚀 Voici un aperçu de mes projets GitHub !  
+</p>
 
 ---
-## 📂 Mes Repositories
 
-| Nom | Description | Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière Maj |
-|------|------------|---------|---------|---------|----------------|
+### 📂 Mes Repositories
+| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ |
+|--------|--------------|------------|---------|---------|---------------|
 """
 
-# Ajouter les repos dans un tableau stylé
+# Ajouter les repositories sous forme de tableau
 for repo in repos:
     name = repo['name']
     description = repo['description'] or "Aucune description"
     language = repo['language'] or "Non spécifié"
     stars = repo['stargazers_count']
     forks = repo['forks_count']
-    updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %B %Y')
-    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars} ⭐ | {forks} 🍴 | {updated_at} |"
+    updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
 
+    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
+
+# Ajouter une section de contact
 readme_content += """
+---
+
+### 📬 Me Contacter :
+- 💻 [Mon GitHub](https://github.com/trh4ckn0n)
+- 🔗 [Mon site Web](https://trh4ckn0n.com) *(si disponible)*
+- 🐦 Twitter : [@trh4ckn0n](https://twitter.com/trh4ckn0n)
+- 📧 Email : *contact@trh4ckn0n.com*
 
 ---
-## 📫 Contact
 
-📌 [Mon GitHub](https://github.com/{GITHUB_USERNAME})  
-📌 [Telegram](https://t.me/{GITHUB_USERNAME})  
-
-Merci d'avoir visité mon GitHub ! 🎉
-
----
-*Dernière mise à jour : {datetime.utcnow().strftime('%d %B %Y à %H:%M UTC')}*
+🚀 *Merci d'avoir visité mon GitHub !* 🎉  
 """
 
-# Écrire dans le fichier README.md
-with open("README.md", "w") as readme_file:
+# Écrire dans le README.md
+with open("README.md", "w", encoding="utf-8") as readme_file:
     readme_file.write(readme_content)
 
-print("README mis à jour avec succès ! 🚀")
+print("✅ README mis à jour avec succès !")
