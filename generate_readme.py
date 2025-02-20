@@ -24,8 +24,8 @@ else:
     raise Exception(f"Erreur de l'API GitHub: {response.status_code}")
 
 # Créer le contenu du README avec des informations détaillées
-readme_content = "# Mes Repositories GitHub\n\n"
-readme_content += "Voici une liste de mes repositories GitHub avec des détails supplémentaires :\n\n"
+readme_content = "# 🚀 Mes Repositories GitHub\n\n"
+readme_content += "Voici une liste de mes repositories GitHub avec des détails supplémentaires, présentée de manière fun et interactive ! 🎉\n\n"
 
 # Ajouter des badges au début du README
 readme_content += """
@@ -44,24 +44,29 @@ for repo in repos:
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %B %Y')
 
-    # Ajouter les informations du repo au README
-    readme_content += f"### {name}\n"
+    # Ajouter les informations du repo au README avec un lien cliquable
+    readme_content += f"### [{name}](https://github.com/trh4ckn0n/{name})\n"
     readme_content += f"- **Description**: {description}\n"
     readme_content += f"- **Langage principal**: {language}\n"
-    readme_content += f"- **Étoiles**: {stars}\n"
-    readme_content += f"- **Forks**: {forks}\n"
-    readme_content += f"- **Dernière mise à jour**: {updated_at}\n\n"
+    readme_content += f"- **Étoiles**: {stars} 🌟\n"
+    readme_content += f"- **Forks**: {forks} 🍴\n"
+    readme_content += f"- **Dernière mise à jour**: {updated_at} 🕒\n\n"
 
 # Ajouter des liens supplémentaires vers des outils utiles
 readme_content += """
-## Liens Utiles :
-- [Documentation API GitHub](https://docs.github.com/en/rest)
-- [Mon Profil GitHub](https://github.com/trh4ckn0n)
-- [Suivre mes autres projets](https://github.com/trh4ckn0n?tab=repositories)
+## 🚀 Liens Utiles :
+- [Documentation API GitHub](https://docs.github.com/en/rest) 📚
+- [Mon Profil GitHub](https://github.com/trh4ckn0n) 👨‍💻
+- [Suivre mes autres projets](https://github.com/trh4ckn0n?tab=repositories) 📂
 \n\n"""
+
+# Ajouter un message de clôture
+readme_content += """
+Merci de visiter mon GitHub ! 🎉
+"""
 
 # Écrire le contenu dans le README
 with open("README.md", "w") as readme_file:
     readme_file.write(readme_content)
 
-print("README mis à jour avec succès !")
+print("README mis à jour avec succès ! 🎉")
