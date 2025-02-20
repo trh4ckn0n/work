@@ -44,7 +44,7 @@ with open("README.html", "w") as f:
     
     if repos:
         f.write("<table>\n")
-        f.write("<thead><tr><th>Nom</th><th>Description</th><th>URL</th><th>Langage</th></tr></thead>\n")
+        f.write("<thead><tr><th>Nom</th><th>Description</th><th>URL</th><th>Langage</th></tr><br></thead>\n")
         f.write("<tbody>\n")
 
         # Remplir le tableau avec les données des repositories
@@ -54,7 +54,7 @@ with open("README.html", "w") as f:
             html_url = repo.get("html_url")
             language = repo.get("language", "Inconnu")
             
-            f.write(f"<tr><td>{name}</td><td>{description}</td><td><a href='{html_url}' target='_blank'>Voir</a></td><td>{language}</td></tr>\n")
+            f.write(f"<tr><td>{name}</td><td>{description}</td><td><a href='{html_url}' target='_blank'>Voir</a></td><td>{language}</td></tr><br>\n")
         
         f.write("</tbody>\n")
         f.write("</table>\n")
