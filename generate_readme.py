@@ -41,6 +41,7 @@ readme_content = f"""
 <p align="center">
     <img width="150" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Profile Visitors Badge"/>
 </p>
+<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=viridescent"/>
 
 <p align="center">
     👾 Passionné par la cybersécurité et le développement  
