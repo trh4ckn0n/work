@@ -1,4 +1,4 @@
-name: Maj le README avec les repositories GitHub
+name: Maj le README.md avec les repositories GitHub
 
 on:
   schedule:
@@ -30,6 +30,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md README.html
+          git add README.md
           git commit -m "🔄 Mise à jour automatique du README" || exit 0
           git push
