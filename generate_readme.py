@@ -1,5 +1,6 @@
 import os
 import requests
+from datetime import datetime
 
 # Obtenir le token d'authentification depuis les secrets GitHub
 GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
@@ -23,16 +24,27 @@ else:
     raise Exception(f"Erreur de l'API GitHub: {response.status_code}")
 
 # Créer le contenu du README avec des informations détaillées
-readme_content = "# Mes Repositories GitHub\n\nVoici une liste de mes repositories GitHub avec des détails supplémentaires :\n\n"
+readme_content = "# Mes Repositories GitHub\n\n"
+readme_content += "Voici une liste de mes repositories GitHub avec des détails supplémentaires :\n\n"
 
+# Ajouter des badges au début du README
+readme_content += """
+![CI](https://img.shields.io/github/workflow/status/trh4ckn0n/work/CI?label=build&logo=github&style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/trh4ckn0n/work?style=flat-square)
+![Stars](https://img.shields.io/github/stars/trh4ckn0n/work?style=flat-square)
+![Forks](https://img.shields.io/github/forks/trh4ckn0n/work?style=flat-square)
+\n\n"""
+
+# Parcourir les repos et ajouter leurs détails
 for repo in repos:
     name = repo['name']
     description = repo['description'] or "Pas de description disponible"
     language = repo['language'] or "Non spécifié"
     stars = repo['stargazers_count']
     forks = repo['forks_count']
-    updated_at = repo['updated_at']
+    updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %B %Y')
 
+    # Ajouter les informations du repo au README
     readme_content += f"### {name}\n"
     readme_content += f"- **Description**: {description}\n"
     readme_content += f"- **Langage principal**: {language}\n"
@@ -40,6 +52,16 @@ for repo in repos:
     readme_content += f"- **Forks**: {forks}\n"
     readme_content += f"- **Dernière mise à jour**: {updated_at}\n\n"
 
+# Ajouter des liens supplémentaires vers des outils utiles
+readme_content += """
+## Liens Utiles :
+- [Documentation API GitHub](https://docs.github.com/en/rest)
+- [Mon Profil GitHub](https://github.com/trh4ckn0n)
+- [Suivre mes autres projets](https://github.com/trh4ckn0n?tab=repositories)
+\n\n"""
+
 # Écrire le contenu dans le README
 with open("README.md", "w") as readme_file:
     readme_file.write(readme_content)
+
+print("README mis à jour avec succès !")
