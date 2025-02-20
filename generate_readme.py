@@ -63,9 +63,8 @@ readme_content += """
 
 ### 📬 Me Contacter :
 - 💻 [Mon GitHub](https://github.com/trh4ckn0n)
-- 🔗 [Mon site Web](https://trh4ckn0n.com) *(si disponible)*
-- 🐦 Twitter : [@trh4ckn0n](https://twitter.com/trh4ckn0n)
-- 📧 Email : *contact@trh4ckn0n.com*
+- ✈️ Telegram : [@trh4ckn0n](https://t.me/trh4ckn0n)
+- 📧 Email : *trhacknon@proton.me*
 
 ---
 
