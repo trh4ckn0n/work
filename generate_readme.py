@@ -1,37 +1,45 @@
-import requests
 import os
+import requests
 
-# Obtenir le token GitHub depuis les secrets
-MY_GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
-GITHUB_USERNAME = "trh4ckn0n"  # Change avec ton pseudo GitHub
+# Obtenir le token d'authentification depuis les secrets GitHub
+GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
 
-# URL de l'API GitHub pour récupérer les repos
-url = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+# L'API GitHub pour obtenir les repositories
+GITHUB_API_URL = "https://api.github.com/users/trh4ckn0n/repos"
 
+# Headers avec le token d'authentification
 headers = {
-    "Authorization": f"token {MY_GITHUB_TOKEN}",
+    "Authorization": f"token {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.v3+json"
 }
 
-response = requests.get(url, headers=headers)
+# Faire la requête pour obtenir les repos
+response = requests.get(GITHUB_API_URL, headers=headers)
 
-if response.status_code != 200:
-    print("❌ Erreur lors de la récupération des repositories.")
-    print(response.json())
-    exit(1)
+# Vérifier si la réponse est correcte
+if response.status_code == 200:
+    repos = response.json()
+else:
+    raise Exception(f"Erreur de l'API GitHub: {response.status_code}")
 
-repos = response.json()
-
-# Générer un README.md mis à jour
-readme_content = "# 📌 Mes repositories GitHub\n\n"
+# Créer le contenu du README avec des informations détaillées
+readme_content = "# Mes Repositories GitHub\n\nVoici une liste de mes repositories GitHub avec des détails supplémentaires :\n\n"
 
 for repo in repos:
-    repo_name = repo["name"]
-    repo_url = repo["html_url"]
-    readme_content += f"- [{repo_name}]({repo_url})\n"
+    name = repo['name']
+    description = repo['description'] or "Pas de description disponible"
+    language = repo['language'] or "Non spécifié"
+    stars = repo['stargazers_count']
+    forks = repo['forks_count']
+    updated_at = repo['updated_at']
 
-# Écrire dans README.md
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
+    readme_content += f"### {name}\n"
+    readme_content += f"- **Description**: {description}\n"
+    readme_content += f"- **Langage principal**: {language}\n"
+    readme_content += f"- **Étoiles**: {stars}\n"
+    readme_content += f"- **Forks**: {forks}\n"
+    readme_content += f"- **Dernière mise à jour**: {updated_at}\n\n"
 
-print("✅ README.md mis à jour avec succès.")
+# Écrire le contenu dans le README
+with open("README.md", "w") as readme_file:
+    readme_file.write(readme_content)
