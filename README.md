@@ -19,7 +19,8 @@
     🚀 Voici un aperçu de mes projets GitHub !  
 </p>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
 
 ### 📂 Mes Repositories
 | 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ |
@@ -34,7 +35,8 @@
 | [work](https://github.com/trh4ckn0n/work) | Aucune description | Python | 0⭐ | 0🍴 | 20 Feb 2025 |
 | [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
 ### 🏆GitHub Trophies
 
 <p align="center">
@@ -46,7 +48,6 @@
 <p align="center"><img src="https://stardev.io/developers/trh4ckn0n/badge/languages/global.svg" width="100%"></p>
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
----
 
 ### 📬 Me Contacter :
 - <a href="https://t.me/trhacknon"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=green"></a>
@@ -54,6 +55,7 @@
 - ✈️ Telegram : [@trh4ckn0n](https://t.me/trh4ckn0n)
 - 📧 Email : *trhacknon@proton.me*
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
 
 🚀 *Merci d'avoir visité mon GitHub !* 🎉  
