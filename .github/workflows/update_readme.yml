@@ -1,8 +1,8 @@
-name: Maj le README avec les repositories GitHub
+name: Maj le README.md avec les repositories GitHub
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Exécute toutes les 6 heures
+    - cron: "0 */6 * * *"  # Exécute toutes les 6 heures
   workflow_dispatch:  # Permet d'exécuter manuellement
 
 jobs:
