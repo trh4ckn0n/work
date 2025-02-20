@@ -1,4 +1,4 @@
-name: Maj le README.md avec les repositories GitHub
+name: Maj le README avec les repositories GitHub
 
 on:
   schedule:
