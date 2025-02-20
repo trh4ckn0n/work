@@ -1,34 +1,37 @@
 import requests
 import os
 
-GITHUB_USERNAME = "trh4ckn0n"
-TOKEN = os.getenv("MY_GITHUB_TOKEN")
+# Obtenir le token GitHub depuis les secrets
+MY_GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
+GITHUB_USERNAME = "trh4ckn0n"  # Change avec ton pseudo GitHub
 
-API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+# URL de l'API GitHub pour récupérer les repos
+url = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
 
-def fetch_repos():
-    headers = {"Authorization": f"token {TOKEN}"}
-    response = requests.get(API_URL, headers=headers)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print("Erreur API:", response.json())
-        return []
+headers = {
+    "Authorization": f"token {MY_GITHUB_TOKEN}",
+    "Accept": "application/vnd.github.v3+json"
+}
 
-def generate_readme(repos):
-    with open("README.md", "w", encoding="utf-8") as file:
-        file.write(f"# 🚀 Les repositories de {GITHUB_USERNAME}\n\n")
-        file.write("## 🌟 Mes meilleurs projets\n\n")
-        for repo in sorted(repos, key=lambda r: r["stargazers_count"], reverse=True)[:5]:
-            file.write(f"- [{repo['name']}]({repo['html_url']}) ⭐ {repo['stargazers_count']}\n")
-        file.write("\n---\n")
-        file.write("## 📂 Tous mes repositories\n\n")
-        for repo in repos:
-            file.write(f"- [{repo['name']}]({repo['html_url']})\n")
+response = requests.get(url, headers=headers)
 
-if __name__ == "__main__":
-    repos = fetch_repos()
-    if repos:
-        generate_readme(repos)
-        with open("README.md", "a") as f:
-    f.write("\n<!-- Mise à jour: Vérification -->")
+if response.status_code != 200:
+    print("❌ Erreur lors de la récupération des repositories.")
+    print(response.json())
+    exit(1)
+
+repos = response.json()
+
+# Générer un README.md mis à jour
+readme_content = "# 📌 Mes repositories GitHub\n\n"
+
+for repo in repos:
+    repo_name = repo["name"]
+    repo_url = repo["html_url"]
+    readme_content += f"- [{repo_name}]({repo_url})\n"
+
+# Écrire dans README.md
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(readme_content)
+
+print("✅ README.md mis à jour avec succès.")
