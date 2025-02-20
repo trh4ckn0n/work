@@ -24,7 +24,7 @@ jobs:
       - name: Run script to update README
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-        run: python generate_readme.py
+        run: python generate_readmeh.py
 
       - name: Commit and push changes
         run: |
