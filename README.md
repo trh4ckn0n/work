@@ -1,5 +1,5 @@
   
-<h1 align="center">🚀 Bienvenue sur mon GitHub !</h1>
+<h1 align="center">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+trh4ckn0n;" alt="Typing SVG"/>
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-    🔥 Passionné par la cybersécurité et le développement  
+    👾 Passionné par la cybersécurité et le développement  
     🌟 Toujours en train d'expérimenter de nouveaux outils  
     🚀 Voici un aperçu de mes projets GitHub !  
 </p>
@@ -33,6 +33,18 @@
 | [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
 | [work](https://github.com/trh4ckn0n/work) | Aucune description | Python | 0⭐ | 0🍴 | 20 Feb 2025 |
 | [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
+
+---
+### 🏆GitHub Trophies
+
+<p align="center">
+    <a href="https://github.com/trh4ckn0n">
+          <img width="49%" src="https://github-profile-trophy.vercel.app/?username=trh4ckn0n&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+    <img width="40%" src="https://holopin.me/amajaying3" />
+  </a>
+</p>
+<p align="center"><img src="https://stardev.io/developers/trh4ckn0n/badge/languages/global.svg" width="100%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 ---
 
