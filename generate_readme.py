@@ -30,23 +30,8 @@ else:
 readme_content = f"""  
 <h1 align="center">😈 Bienvenue sur mon GitHub !</h1>
 
-<img width=100% title="TRHACKNON" alt="TRHACKNON" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ANONYMOUS-🔰-TRHACKNON&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=45"/>
-
-<img
-  src="https://github.com/trh4ckn0n/avinal/blob/main/images/stat.svg"
-  alt="Alternative Text"
-/>
-
-<table border="0">
- <tr>
-    <td>
-      <br>
-
-<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15"/>
-
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+CTF+Player;" 
-    style="border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+CTF+Player;" />
 </p>
 
 <p align="center">
@@ -56,6 +41,8 @@ readme_content = f"""
 <p align="center">
     <img width="150" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Profile Visitors Badge"/>
 </p>
+<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15"/>
+
 
 <p align="center">
     👾 Passionné par la cybersécurité et le développement  
