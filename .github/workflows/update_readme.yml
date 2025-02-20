@@ -1,13 +1,14 @@
-name: Mettre à jour le README avec les repositories GitHub
+name: Maj le README avec les repositories GitHub
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Exécute tous les jours à minuit UTC
+    - cron: "0 */6 * * *"  # Exécute toutes les 6 heures
   workflow_dispatch:  # Permet d'exécuter manuellement
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -22,15 +23,13 @@ jobs:
 
       - name: Run script to update README
         env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_readme.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${MY_GITHUB_TOKEN}@github.com/trh4ckn0n/work.git
-          git pull --rebase
           git add README.md
-          git commit -m "🔄 Mise à jour automatique du README avec les derniers repositories" || exit 0
+          git commit -m "🔄 Mise à jour automatique du README" || exit 0
           git push
