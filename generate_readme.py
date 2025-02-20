@@ -31,7 +31,8 @@ readme_content = f"""
 <h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Hi+Im+TRHACKNON+;Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+Hacktivist;" style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=FF5733&background=000000&center=true&vCenter=true&width=550&height=70&lines=Hi+Im+TRHACKNON+;Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+Hacktivist;&color=39FF14&color=00FFFF&color=FF00FF;" 
+    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 </p>
 
 <p align="center">
