@@ -61,8 +61,7 @@ for repo in repos:
     stars = repo['stargazers_count']
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %B %Y')
-    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars} ⭐ | {forks} 🍴 | {updated_at} |
-"
+    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars} ⭐ | {forks} 🍴 | {updated_at} |"
 
 readme_content += """
 
