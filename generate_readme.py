@@ -26,8 +26,8 @@ elif response.status_code == 401:
 else:
     raise Exception(f"❌ Erreur API GitHub: {response.status_code}")
 
-# Générer un README stylé
-readme_content = f"""  
+# Générer un README stylé en Markdown
+readme_content_md = f"""  
 <h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
@@ -80,11 +80,10 @@ for repo in repos:
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
 
-    readme_content += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
+    readme_content_md += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
 
-# Ajouter les repositories sous forme de tableau
 # Ajouter une section de contact
-readme_content += """
+readme_content_md += """
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 ### 🏆GitHub Trophies
@@ -113,6 +112,87 @@ readme_content += """
 
 # Écrire dans le README.md
 with open("README.md", "w", encoding="utf-8") as readme_file:
-    readme_file.write(readme_content)
+    readme_file.write(readme_content_md)
 
-print("✅ README mis à jour avec succès !")
+# Générer un README.html en transformant le markdown en HTML
+readme_content_html = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - {GITHUB_USERNAME}</title>
+    <style>
+        body {{
+            background-color: #111;
+            color: #39FF14;
+            font-family: Arial, sans-serif;
+        }}
+        h1, h2, h3 {{
+            text-align: center;
+            color: #39FF14;
+        }}
+        p {{
+            font-size: 1.1em;
+            text-align: center;
+        }}
+        .repository-table {{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }}
+        .repository-table th, .repository-table td {{
+            padding: 10px;
+            border: 1px solid #39FF14;
+            text-align: left;
+        }}
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur mon GitHub !</h1>
+    <p>Passionné par la cybersécurité et le développement, voici un aperçu de mes projets GitHub !</p>
+    <h2>Mes Repositories</h2>
+    <table class="repository-table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Description</th>
+                <th>Langage</th>
+                <th>Stars</th>
+                <th>Forks</th>
+                <th>Dernière MAJ</th>
+            </tr>
+        </thead>
+        <tbody>
+"""
+
+# Ajouter les repos à la table HTML
+for repo in repos:
+    name = repo['name']
+    description = repo['description'] or "Aucune description"
+    language = repo['language'] or "Non spécifié"
+    stars = repo['stargazers_count']
+    forks = repo['forks_count']
+    updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
+
+    readme_content_html += f"""<tr>
+        <td><a href="https://github.com/{GITHUB_USERNAME}/{name}" style="color: #39FF14;">{name}</a></td>
+        <td>{description}</td>
+        <td>{language}</td>
+        <td>{stars}</td>
+        <td>{forks}</td>
+        <td>{updated_at}</td>
+    </tr>"""
+
+# Terminer le fichier HTML
+readme_content_html += """
+        </tbody>
+    </table>
+</body>
+</html>
+"""
+
+# Écrire dans le README.html
+with open("README.html", "w", encoding="utf-8") as html_file:
+    html_file.write(readme_content_html)
+
+print("✅ README.md et README.html générés avec succès !")
