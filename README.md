@@ -3,7 +3,7 @@
 Voici une liste de mes repositories GitHub avec des détails supplémentaires :
 
 
-![CI](https://img.shields.io/github/workflow/status/trh4ckn0n/work/CI?label=build&logo=github&style=flat-square)
+[![Maj le README avec les repositories GitHub](https://github.com/trh4ckn0n/work/actions/workflows/update_readme.yml/badge.svg?event=workflow_run)](https://github.com/trh4ckn0n/work/actions/workflows/update_readme.yml)
 ![Last Commit](https://img.shields.io/github/last-commit/trh4ckn0n/work?style=flat-square)
 ![Stars](https://img.shields.io/github/stars/trh4ckn0n/work?style=flat-square)
 ![Forks](https://img.shields.io/github/forks/trh4ckn0n/work?style=flat-square)
