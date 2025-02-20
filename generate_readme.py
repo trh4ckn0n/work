@@ -32,6 +32,7 @@ readme_content = f"""
 <p align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?ont=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+trh4ckn0n;"/>
     <img width="150" align="center" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="trhacknon-FR"/>
+    
     <img src="https://github.com/trh4ckn0n.png" width="120" alt="Avatar">
 </p>
 
