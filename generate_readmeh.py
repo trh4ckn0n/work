@@ -1,175 +1,62 @@
-import os
 import requests
-from datetime import datetime
+import os
 
-# Obtenir le token GitHub depuis les variables d'environnement
-GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
-GITHUB_USERNAME = "trh4ckn0n"
+# Récupérer le token GitHub depuis les variables d'environnement
+token = os.getenv('MY_GITHUB_TOKEN')
 
-# URL de l'API pour récupérer tous les repos de l'utilisateur
-GITHUB_API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
-
-# Headers pour l'authentification
+# Définir l'en-tête avec l'authentification
 headers = {
-    "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github.v3+json"
+    'Authorization': f'token {token}'
 }
 
-# Effectuer la requête pour récupérer les repositories
-response = requests.get(GITHUB_API_URL, headers=headers)
+# URL de l'API GitHub pour obtenir les repositories
+repos_url = "https://api.github.com/users/<votre-nom-utilisateur>/repos"
 
-# Vérifier la réponse
+# Faire une requête à l'API pour obtenir la liste des repositories
+response = requests.get(repos_url, headers=headers)
+
+# Vérifier si la requête a réussi
 if response.status_code == 200:
     repos = response.json()
-elif response.status_code == 401:
-    raise Exception("⚠️ Erreur d'authentification : Vérifie ton token GitHub.")
 else:
-    raise Exception(f"❌ Erreur API GitHub: {response.status_code}")
+    print("Erreur lors de la récupération des repositories.")
+    repos = []
 
-# Générer un README.md
-readme_content = f"""  
-<h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
+# Ouvrir (ou créer) le fichier README.html pour écrire dedans
+with open("README.html", "w") as f:
+    f.write("<html>\n")
+    f.write("<head>\n")
+    f.write("<title>Repositories GitHub</title>\n")
+    f.write('<style>\n')
+    f.write('table { width: 100%; border-collapse: collapse; }\n')
+    f.write('th, td { padding: 8px; text-align: left; border: 1px solid #ddd; }\n')
+    f.write('th { background-color: #4CAF50; color: white; }\n')
+    f.write('tr:nth-child(even) { background-color: #f2f2f2; }\n')
+    f.write('</style>\n')
+    f.write("</head>\n")
+    f.write("<body>\n")
+    f.write("<h1>Liste des Repositories GitHub</h1>\n")
+    
+    if repos:
+        f.write("<table>\n")
+        f.write("<thead><tr><th>Nom</th><th>Description</th><th>URL</th><th>Langage</th></tr></thead>\n")
+        f.write("<tbody>\n")
 
-<p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=FF5733&background=000000&center=true&vCenter=true&width=550&height=70&lines=Hi+Im+TRHACKNON" 
-    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
-</p>
-<p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋" 
-    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
-</p>
-<p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=00FFFF&background=000000&center=true&vCenter=true&width=550&height=70&lines=Cybersecurity+%26+Development" 
-    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
-</p>
-<p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=6400&color=FF00FF&background=000000&center=true&vCenter=true&width=550&height=70&lines=Pentester+|+Coder+|+Hacktivist" 
-    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
-</p>
+        # Remplir le tableau avec les données des repositories
+        for repo in repos:
+            name = repo.get("name")
+            description = repo.get("description", "Pas de description")
+            html_url = repo.get("html_url")
+            language = repo.get("language", "Inconnu")
+            
+            f.write(f"<tr><td>{name}</td><td>{description}</td><td><a href='{html_url}'>Voir</a></td><td>{language}</td></tr>\n")
+        
+        f.write("</tbody>\n")
+        f.write("</table>\n")
+    else:
+        f.write("<p>Aucun repository trouvé.</p>\n")
+    
+    f.write("</body>\n")
+    f.write("</html>\n")
 
-<p align="center">
-    <img src="https://github.com/trh4ckn0n.png" width="120" alt="Avatar" style="border-radius: 50%; border: 3px solid #39FF14; box-shadow: 0 0 15px #39FF14;"/>
-</p>
-
-<p align="center">
-    <img width="150" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Profile Visitors Badge" style="border: 2px solid #39FF14;"/>
-</p>
-
-<img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15" 
-style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
-
-<p align="center" style="color: #39FF14; font-size: 1.2em; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">
-    👾 Passionné par la cybersécurité et le développement  
-    🌟 Toujours en train d'expérimenter de nouveaux outils  
-    🚀 Voici un aperçu de mes projets GitHub !  
-</p>
-
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
-
-### 📂 Mes Repositories
-| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ |
-|--------|--------------|------------|---------|---------|---------------|
-"""
-
-# Ajouter les repositories sous forme de tableau avec style fluo
-for repo in repos:
-    name = repo['name']
-    description = repo['description'] or "Aucune description"
-    language = repo['language'] or "Non spécifié"
-    stars = repo['stargazers_count']
-    forks = repo['forks_count']
-    updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
-
-    readme_content += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
-
-# Ajouter une section de contact
-readme_content += """
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
-
-### 🏆GitHub Trophies
-
-<p align="center">
-    <a href="https://github.com/trh4ckn0n">
-          <img width="49%" src="https://github-profile-trophy.vercel.app/?username=trh4ckn0n&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
-    <img width="40%" src="https://holopin.me/amajaying3" />
-  </a>
-</p>
-<p align="center"><img src="https://stardev.io/developers/trh4ckn0n/badge/languages/global.svg" width="100%"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
-
-
-### 📬 Me Contacter :
-- <a href="https://t.me/trhacknon"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=green"></a>
-- 💻 [Mon GitHub](https://github.com/trh4ckn0n)
-- ✈️ Telegram : [@trh4ckn0n](https://t.me/trh4ckn0n)
-- 📧 Email : *trhacknon@proton.me*
-
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
-
-
-🚀 *Merci d'avoir visité mon GitHub !* 🎉  
-"""
-
-# Écrire dans le README.md
-with open("README.md", "w", encoding="utf-8") as readme_file:
-    readme_file.write(readme_content)
-
-# Générer le README.html
-html_content = f"""
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - {GITHUB_USERNAME}</title>
-</head>
-<body style="background-color: #121212; color: #39FF14; font-family: Arial, sans-serif;">
-    <h1 align="center">😈 Bienvenue sur mon GitHub !</h1>
-    <p align="center">
-        <img src="https://github.com/trh4ckn0n.png" width="120" alt="Avatar" />
-    </p>
-    <h2>Mes Repositories</h2>
-    <table border="1" cellpadding="10" align="center">
-        <thead>
-            <tr style="background-color: #333;">
-                <th>Nom</th>
-                <th>Description</th>
-                <th>Langage</th>
-                <th>Stars</th>
-                <th>Forks</th>
-                <th>Dernière MAJ</th>
-            </tr>
-        </thead>
-        <tbody>
-"""
-for repo in repos:
-    name = repo['name']
-    description = repo['description'] or "Aucune description"
-    language = repo['language'] or "Non spécifié"
-    stars = repo['stargazers_count']
-    forks = repo['forks_count']
-    updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
-
-    html_content += f"""
-            <tr>
-                <td><a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a></td>
-                <td>{description}</td>
-                <td>{language}</td>
-                <td>{stars}⭐</td>
-                <td>{forks}🍴</td>
-                <td>{updated_at}</td>
-            </tr>
-    """
-
-html_content += """
-        </tbody>
-    </table>
-</body>
-</html>
-"""
-
-# Écrire dans le README.html
-with open("README.html", "w", encoding="utf-8") as html_file:
-    html_file.write(html_content)
-
-print("✅ README.md et README.html générés avec succès !")
+print("README.html généré avec succès.")
