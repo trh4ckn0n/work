@@ -2,8 +2,8 @@
 <h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+CTF+Player;" 
-    style="border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3000&color=39FF14&background=000000&center=true&vCenter=true&width=550&height=70&lines=Im+TRHACKNON+Welcome+to+my+GitHub!+👋;Cybersecurity+%26+Development;Pentester+|+Coder+|+Hacktivist;" 
+    style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <img width="280" align="center" src="https://github-widgetbox.vercel.app/api/profile?username=trh4ckn0n&data=followers,repositories,stars,commits&theme=radical&background=0D1117&border_radius=10&padding=15" 
-style="border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 
 <p align="center" style="color: #39FF14; font-size: 1.2em; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">
     👾 Passionné par la cybersécurité et le développement  
@@ -35,7 +35,7 @@ style="border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14
 | <a href='https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp' style='color: #39FF14;'>Reverse-Shell-Whatsapp</a> | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/theZoo' style='color: #39FF14;'>theZoo</a> | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/trkn-smartclear' style='color: #39FF14;'>trkn-smartclear</a> | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/work' style='color: #39FF14;'>work</a> | Aucune description | Python | 0⭐ | 0🍴 | 20 Feb 2025 |
+| <a href='https://github.com/trh4ckn0n/work' style='color: #39FF14;'>work</a> | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 20 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/wp-theme-gen' style='color: #39FF14;'>wp-theme-gen</a> | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
