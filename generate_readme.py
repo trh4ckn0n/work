@@ -62,6 +62,7 @@ readme_content += """
 ---
 
 ### 📬 Me Contacter :
+<a href="https://t.me/trhacknon"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=green"></a>
 - 💻 [Mon GitHub](https://github.com/trh4ckn0n)
 - ✈️ Telegram : [@trh4ckn0n](https://t.me/trh4ckn0n)
 - 📧 Email : *trhacknon@proton.me*
