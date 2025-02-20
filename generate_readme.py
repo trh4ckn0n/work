@@ -68,7 +68,7 @@ for repo in repos:
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
 
-    readme_content += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>[{name}]</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
+    readme_content += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
 
 # Ajouter les repositories sous forme de tableau
 # Ajouter une section de contact
