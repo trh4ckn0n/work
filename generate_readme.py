@@ -29,11 +29,17 @@ else:
 # Générer un README stylé
 readme_content = f"""  
 <h1 align="center">🚀 Bienvenue sur mon GitHub !</h1>
+
 <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?ont=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+trh4ckn0n;"/>
-    <img width="150" align="center" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="trhacknon-FR"/>
-    
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+trh4ckn0n;" alt="Typing SVG"/>
+</p>
+
+<p align="center">
     <img src="https://github.com/trh4ckn0n.png" width="120" alt="Avatar">
+</p>
+
+<p align="center">
+    <img width="150" src="https://komarev.com/ghpvc/?username=trh4ckn0n&label=Profile%20Visitor&color=071A2C&style=for-the-badge" alt="Profile Visitors Badge"/>
 </p>
 
 <p align="center">
