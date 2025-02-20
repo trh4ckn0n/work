@@ -39,4 +39,4 @@ jobs:
         with:
           branch: gh-pages  # Déploiement sur la branche gh-pages
           folder: .  # Le dossier racine du repository (vous pouvez aussi spécifier un dossier si nécessaire)
-          token: ${{ secrets.MY_GITHUB_TOKEN }}  # Utilisation du token GitHub Actions
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
