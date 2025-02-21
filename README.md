@@ -40,6 +40,8 @@
     <img src="{random_gif}" width="100%" />
 </p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
+
 ### 📂 Mes Repositories
 | 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ | 🌍 GitHub Pages |
 |--------|--------------|------------|---------|---------|---------------|-----------------|
@@ -57,6 +59,7 @@
 | [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 21 Feb 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
 | [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
 
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 ### 🏆GitHub Trophies
 
@@ -66,11 +69,17 @@
     <img width="40%" src="https://holopin.me/amajaying3" />
   </a>
 </p>
+<p align="center"><img src="https://stardev.io/developers/trh4ckn0n/badge/languages/global.svg" width="100%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
 
 ### 📬 Me Contacter :
 - <a href="https://t.me/trhacknon"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=green"></a>
 - 💻 [Mon GitHub](https://github.com/trh4ckn0n)
 - ✈️ Telegram : [@trh4ckn0n](https://t.me/trh4ckn0n)
 - 📧 Email : *trhacknon@proton.me*
+
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
 
 🚀 *Merci d'avoir visité mon GitHub !* 🎉  
