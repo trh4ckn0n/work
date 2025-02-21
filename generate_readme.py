@@ -87,6 +87,8 @@ readme_content = """
     <img src="{random_gif}" width="100%" />
 </p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
+
 ### 📂 Mes Repositories
 | 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ | 🌍 GitHub Pages |
 |--------|--------------|------------|---------|---------|---------------|-----------------|
