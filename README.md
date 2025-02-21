@@ -1,4 +1,4 @@
-  
+
 <h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
@@ -39,43 +39,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
 
 ### 📂 Mes Repositories
-| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ |
-|--------|--------------|------------|---------|---------|---------------|
-| <a href='https://github.com/trh4ckn0n/avinal' style='color: #39FF14;'>avinal</a> | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/dalle-playground' style='color: #39FF14;'>dalle-playground</a> | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/expdf-trkn' style='color: #39FF14;'>expdf-trkn</a> | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/komjaime' style='color: #39FF14;'>komjaime</a> | commejaime clone | HTML | 0⭐ | 0🍴 | 21 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/piege_voleur' style='color: #39FF14;'>piege_voleur</a> | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/Profile-Readme-WakaTime' style='color: #39FF14;'>Profile-Readme-WakaTime</a> | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp' style='color: #39FF14;'>Reverse-Shell-Whatsapp</a> | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/theZoo' style='color: #39FF14;'>theZoo</a> | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/trkn-smartclear' style='color: #39FF14;'>trkn-smartclear</a> | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/trytounderstand' style='color: #39FF14;'>trytounderstand</a> | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/V3n0M-Scanner' style='color: #39FF14;'>V3n0M-Scanner</a> | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/work' style='color: #39FF14;'>work</a> | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 21 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/wp-theme-gen' style='color: #39FF14;'>wp-theme-gen</a> | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
-
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
-
-### 🏆GitHub Trophies
-
-<p align="center">
-    <a href="https://github.com/trh4ckn0n">
-          <img width="49%" src="https://github-profile-trophy.vercel.app/?username=trh4ckn0n&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
-    <img width="40%" src="https://holopin.me/amajaying3" />
-  </a>
-</p>
-<p align="center"><img src="https://stardev.io/developers/trh4ckn0n/badge/languages/global.svg" width="100%"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
-
-
-### 📬 Me Contacter :
-- <a href="https://t.me/trhacknon"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=green"></a>
-- 💻 [Mon GitHub](https://github.com/trh4ckn0n)
-- ✈️ Telegram : [@trh4ckn0n](https://t.me/trh4ckn0n)
-- 📧 Email : *trhacknon@proton.me*
-
-<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
-
-
-🚀 *Merci d'avoir visité mon GitHub !* 🎉  
+| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ | 🌍 GitHub Pages |
+|--------|--------------|------------|---------|---------|---------------|-----------------|
+| [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ || [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ || [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ || [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ || [piege_voleur](https://github.com/trh4ckn0n/piege_voleur) | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ || [Profile-Readme-WakaTime](https://github.com/trh4ckn0n/Profile-Readme-WakaTime) | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ || [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ || [theZoo](https://github.com/trh4ckn0n/theZoo) | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ || [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ || [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ || [V3n0M-Scanner](https://github.com/trh4ckn0n/V3n0M-Scanner) | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ || [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 21 Feb 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) || [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
