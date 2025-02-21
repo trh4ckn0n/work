@@ -44,7 +44,7 @@
 | <a href='https://github.com/trh4ckn0n/avinal' style='color: #39FF14;'>avinal</a> | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/dalle-playground' style='color: #39FF14;'>dalle-playground</a> | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/expdf-trkn' style='color: #39FF14;'>expdf-trkn</a> | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/komjaime' style='color: #39FF14;'>komjaime</a> | commejaime clone | HTML | 0⭐ | 0🍴 | 20 Feb 2025 |
+| <a href='https://github.com/trh4ckn0n/komjaime' style='color: #39FF14;'>komjaime</a> | commejaime clone | HTML | 0⭐ | 0🍴 | 21 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/piege_voleur' style='color: #39FF14;'>piege_voleur</a> | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/Profile-Readme-WakaTime' style='color: #39FF14;'>Profile-Readme-WakaTime</a> | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp' style='color: #39FF14;'>Reverse-Shell-Whatsapp</a> | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 |
@@ -52,7 +52,7 @@
 | <a href='https://github.com/trh4ckn0n/trkn-smartclear' style='color: #39FF14;'>trkn-smartclear</a> | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/trytounderstand' style='color: #39FF14;'>trytounderstand</a> | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/V3n0M-Scanner' style='color: #39FF14;'>V3n0M-Scanner</a> | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 |
-| <a href='https://github.com/trh4ckn0n/work' style='color: #39FF14;'>work</a> | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 20 Feb 2025 |
+| <a href='https://github.com/trh4ckn0n/work' style='color: #39FF14;'>work</a> | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 21 Feb 2025 |
 | <a href='https://github.com/trh4ckn0n/wp-theme-gen' style='color: #39FF14;'>wp-theme-gen</a> | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
