@@ -85,6 +85,35 @@ for repo in repos:
 
     # Ajout du retour à la ligne pour bien séparer les repos
     readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |\n"
+
+readme_content += """
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
+### 🏆GitHub Trophies
+
+<p align="center">
+    <a href="https://github.com/trh4ckn0n">
+          <img width="49%" src="https://github-profile-trophy.vercel.app/?username=trh4ckn0n&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+    <img width="40%" src="https://holopin.me/amajaying3" />
+  </a>
+</p>
+<p align="center"><img src="https://stardev.io/developers/trh4ckn0n/badge/languages/global.svg" width="100%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
+
+### 📬 Me Contacter :
+- <a href="https://t.me/trhacknon"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=green"></a>
+- 💻 [Mon GitHub](https://github.com/trh4ckn0n)
+- ✈️ Telegram : [@trh4ckn0n](https://t.me/trh4ckn0n)
+- 📧 Email : *trhacknon@proton.me*
+
+<p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
+
+
+🚀 *Merci d'avoir visité mon GitHub !* 🎉  
+"""
+
+
 # Écrire dans le README.md
 with open("README.md", "w", encoding="utf-8") as readme_file:
     readme_file.write(readme_content)
