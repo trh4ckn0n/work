@@ -77,17 +77,14 @@ for repo in repos:
     stars = repo['stargazers_count']
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
-    
+
     # Vérifier si GitHub Pages est activé
     pages_url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{name}/pages"
     pages_response = requests.get(pages_url, headers=headers)
-    if pages_response.status_code == 200:
-        github_pages = f"[🌍 Voir ici](https://{GITHUB_USERNAME}.github.io/{name}/)"
-    else:
-        github_pages = "❌"
+    github_pages = f"[🌍 Voir ici](https://{GITHUB_USERNAME}.github.io/{name}/)" if pages_response.status_code == 200 else "❌"
 
-    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |"
-
+    # Ajout du retour à la ligne pour bien séparer les repos
+    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |\n"
 # Écrire dans le README.md
 with open("README.md", "w", encoding="utf-8") as readme_file:
     readme_file.write(readme_content)
