@@ -17,8 +17,6 @@ headers = {
 
 # Effectuer la requête pour récupérer les repositories
 response = requests.get(GITHUB_API_URL, headers=headers)
-
-# Vérifier la réponse
 if response.status_code == 200:
     repos = response.json()
 elif response.status_code == 401:
@@ -27,7 +25,7 @@ else:
     raise Exception(f"❌ Erreur API GitHub: {response.status_code}")
 
 # Générer un README stylé
-readme_content = f"""  
+readme_content = """
 <h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
@@ -68,11 +66,10 @@ readme_content = f"""
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
 
 ### 📂 Mes Repositories
-| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ |
-|--------|--------------|------------|---------|---------|---------------|
+| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ | 🌍 GitHub Pages |
+|--------|--------------|------------|---------|---------|---------------|-----------------|
 """
 
-# Ajouter les repositories sous forme de tableau avec style fluo
 for repo in repos:
     name = repo['name']
     description = repo['description'] or "Aucune description"
@@ -81,10 +78,14 @@ for repo in repos:
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
 
-    readme_content += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
+    # Vérifier si GitHub Pages est activé
+    pages_url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{name}/pages"
+    pages_response = requests.get(pages_url, headers=headers)
+    github_pages = f"[🌍 Voir ici](https://{GITHUB_USERNAME}.github.io/{name}/)" if pages_response.status_code == 200 else "❌"
 
-# Ajouter les repositories sous forme de tableau
-# Ajouter une section de contact
+    # Ajout du retour à la ligne pour bien séparer les repos
+    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |\n"
+
 readme_content += """
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
@@ -111,6 +112,7 @@ readme_content += """
 
 🚀 *Merci d'avoir visité mon GitHub !* 🎉  
 """
+
 
 # Écrire dans le README.md
 with open("README.md", "w", encoding="utf-8") as readme_file:
