@@ -86,8 +86,7 @@ for repo in repos:
     else:
         github_pages = "❌"
 
-    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |
-"
+    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |"
 
 # Écrire dans le README.md
 with open("README.md", "w", encoding="utf-8") as readme_file:
