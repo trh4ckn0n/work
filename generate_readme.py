@@ -1,6 +1,7 @@
 import os
 import requests
 from datetime import datetime
+import random
 
 # Obtenir le token GitHub depuis les variables d'environnement
 GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
@@ -8,6 +9,7 @@ GITHUB_USERNAME = "trh4ckn0n"
 
 # URL de l'API pour récupérer tous les repos de l'utilisateur
 GITHUB_API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+USER_API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}"
 
 # Headers pour l'authentification
 headers = {
@@ -15,10 +17,18 @@ headers = {
     "Accept": "application/vnd.github.v3+json"
 }
 
+# Obtenir la date de création du compte GitHub
+user_response = requests.get(USER_API_URL, headers=headers)
+if user_response.status_code == 200:
+    user_data = user_response.json()
+    created_at = datetime.strptime(user_data['created_at'], '%Y-%m-%dT%H:%M:%SZ')
+    account_age = (datetime.utcnow() - created_at).days // 365
+    account_age_text = f"GitHub depuis {account_age} ans."
+else:
+    account_age_text = "Impossible de récupérer la date de création."
+
 # Effectuer la requête pour récupérer les repositories
 response = requests.get(GITHUB_API_URL, headers=headers)
-
-# Vérifier la réponse
 if response.status_code == 200:
     repos = response.json()
 elif response.status_code == 401:
@@ -26,8 +36,16 @@ elif response.status_code == 401:
 else:
     raise Exception(f"❌ Erreur API GitHub: {response.status_code}")
 
+# Générer un GIF aléatoire
+gif_links = [
+    "https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "https://media0.giphy.com/media/DqiMTFxiXx0VaVZQbF/giphy.gif?cid=6c09b952fmcs777wkiz4sumix203z9srxl9h7f5azg9fdo1a&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
+]
+random_gif = random.choice(gif_links)
+
 # Générer un README stylé
-readme_content = f"""  
+readme_content = f"""
 <h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
@@ -65,14 +83,17 @@ readme_content = f"""
     🚀 Voici un aperçu de mes projets GitHub !  
 </p>
 
+<p align="center">
+    <img src="{random_gif}" width="100%" />
+</p>
+
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
 
 ### 📂 Mes Repositories
-| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ |
-|--------|--------------|------------|---------|---------|---------------|
+| 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ | 🌍 GitHub Pages |
+|--------|--------------|------------|---------|---------|---------------|-----------------|
 """
 
-# Ajouter les repositories sous forme de tableau avec style fluo
 for repo in repos:
     name = repo['name']
     description = repo['description'] or "Aucune description"
@@ -81,10 +102,13 @@ for repo in repos:
     forks = repo['forks_count']
     updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
 
-    readme_content += f"| <a href='https://github.com/{GITHUB_USERNAME}/{name}' style='color: #39FF14;'>{name}</a> | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} |\n"
+    # Vérifier si GitHub Pages est activé
+    pages_url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{name}/pages"
+    pages_response = requests.get(pages_url, headers=headers)
+    github_pages = f"[🌍 Voir ici](https://{GITHUB_USERNAME}.github.io/{name}/)" if pages_response.status_code == 200 else "❌"
 
-# Ajouter les repositories sous forme de tableau
-# Ajouter une section de contact
+    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |\n"
+
 readme_content += """
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
@@ -111,9 +135,8 @@ readme_content += """
 
 🚀 *Merci d'avoir visité mon GitHub !* 🎉  
 """
-
 # Écrire dans le README.md
 with open("README.md", "w", encoding="utf-8") as readme_file:
     readme_file.write(readme_content)
 
-print("✅ README mis à jour avec succès !")
+print("✅ README mis à jour avec GIF aléatoire et âge du compte GitHub !")

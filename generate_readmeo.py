@@ -1,4 +1,31 @@
+import os
+import requests
+from datetime import datetime
 
+# Obtenir le token GitHub depuis les variables d'environnement
+GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
+GITHUB_USERNAME = "trh4ckn0n"
+
+# URL de l'API pour récupérer tous les repos de l'utilisateur
+GITHUB_API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+
+# Headers pour l'authentification
+headers = {
+    "Authorization": f"token {GITHUB_TOKEN}",
+    "Accept": "application/vnd.github.v3+json"
+}
+
+# Effectuer la requête pour récupérer les repositories
+response = requests.get(GITHUB_API_URL, headers=headers)
+if response.status_code == 200:
+    repos = response.json()
+elif response.status_code == 401:
+    raise Exception("⚠️ Erreur d'authentification : Vérifie ton token GitHub.")
+else:
+    raise Exception(f"❌ Erreur API GitHub: {response.status_code}")
+
+# Générer un README stylé
+readme_content = """
 <h1 align="center" style="color: #39FF14; text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;">😈 Bienvenue sur mon GitHub !</h1>
 
 <p align="center">
@@ -36,29 +63,30 @@
     🚀 Voici un aperçu de mes projets GitHub !  
 </p>
 
-<p align="center">
-    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
-</p>
-
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
 
 ### 📂 Mes Repositories
 | 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ | 🌍 GitHub Pages |
 |--------|--------------|------------|---------|---------|---------------|-----------------|
-| [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
-| [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
-| [piege_voleur](https://github.com/trh4ckn0n/piege_voleur) | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
-| [Profile-Readme-WakaTime](https://github.com/trh4ckn0n/Profile-Readme-WakaTime) | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [theZoo](https://github.com/trh4ckn0n/theZoo) | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
-| [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
-| [V3n0M-Scanner](https://github.com/trh4ckn0n/V3n0M-Scanner) | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
-| [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 21 Feb 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
-| [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
+"""
 
+for repo in repos:
+    name = repo['name']
+    description = repo['description'] or "Aucune description"
+    language = repo['language'] or "Non spécifié"
+    stars = repo['stargazers_count']
+    forks = repo['forks_count']
+    updated_at = datetime.strptime(repo['updated_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%d %b %Y')
+
+    # Vérifier si GitHub Pages est activé
+    pages_url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{name}/pages"
+    pages_response = requests.get(pages_url, headers=headers)
+    github_pages = f"[🌍 Voir ici](https://{GITHUB_USERNAME}.github.io/{name}/)" if pages_response.status_code == 200 else "❌"
+
+    # Ajout du retour à la ligne pour bien séparer les repos
+    readme_content += f"| [{name}](https://github.com/{GITHUB_USERNAME}/{name}) | {description} | {language} | {stars}⭐ | {forks}🍴 | {updated_at} | {github_pages} |\n"
+
+readme_content += """
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
 ### 🏆GitHub Trophies
@@ -83,3 +111,11 @@
 
 
 🚀 *Merci d'avoir visité mon GitHub !* 🎉  
+"""
+
+
+# Écrire dans le README.md
+with open("README.md", "w", encoding="utf-8") as readme_file:
+    readme_file.write(readme_content)
+
+print("✅ README mis à jour avec succès !")
