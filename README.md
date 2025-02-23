@@ -48,7 +48,7 @@
 | [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 22 Feb 2025 | ❌ |
+| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 23 Feb 2025 | ❌ |
 | [piege_voleur](https://github.com/trh4ckn0n/piege_voleur) | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [Profile-Readme-WakaTime](https://github.com/trh4ckn0n/Profile-Readme-WakaTime) | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
@@ -57,7 +57,7 @@
 | [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
 | [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [V3n0M-Scanner](https://github.com/trh4ckn0n/V3n0M-Scanner) | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
-| [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 22 Feb 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
+| [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 23 Feb 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
 | [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
