@@ -55,6 +55,7 @@
 | [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 22 Feb 2025 | ❌ |
 | [theZoo](https://github.com/trh4ckn0n/theZoo) | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
+| [trkn-obf](https://github.com/trh4ckn0n/trkn-obf) | PYTHON Obfuscator by TRH4CKN0N | Python | 0⭐ | 0🍴 | 25 Feb 2025 | ❌ |
 | [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
 | [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [V3n0M-Scanner](https://github.com/trh4ckn0n/V3n0M-Scanner) | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
