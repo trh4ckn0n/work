@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media0.giphy.com/media/DqiMTFxiXx0VaVZQbF/giphy.gif?cid=6c09b952fmcs777wkiz4sumix203z9srxl9h7f5azg9fdo1a&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -48,13 +48,15 @@
 | [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 25 Feb 2025 | ❌ |
+| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 | [nuclei-templates](https://github.com/trh4ckn0n/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | Non spécifié | 0⭐ | 0🍴 | 24 Feb 2025 | ❌ |
+| [PhpFbGuard](https://github.com/trh4ckn0n/PhpFbGuard) | PhpFbGuard is a web app that forces to enable facebook's new feature called Profile picture guard, that isn't available to everyone (yet) | PHP | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 | [piege_voleur](https://github.com/trh4ckn0n/piege_voleur) | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [Profile-Readme-WakaTime](https://github.com/trh4ckn0n/Profile-Readme-WakaTime) | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 22 Feb 2025 | ❌ |
 | [theZoo](https://github.com/trh4ckn0n/theZoo) | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
+| [tofweb](https://github.com/trh4ckn0n/tofweb) | Aucune description | HTML | 0⭐ | 0🍴 | 25 Feb 2025 | ❌ |
 | [trkn-obf](https://github.com/trh4ckn0n/trkn-obf) | PYTHON Obfuscator by TRH4CKN0N | Python | 0⭐ | 0🍴 | 25 Feb 2025 | ❌ |
 | [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
 | [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
