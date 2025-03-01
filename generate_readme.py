@@ -51,6 +51,9 @@ readme_content = f"""
 <img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trknanon.svg" style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 </p>
 <p align="center">
+<img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trkncat.svg" style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
+</p>
+<p align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=3200&color=FF5733&background=000000&center=true&vCenter=true&width=550&height=70&lines=Hi+Im+TRHACKNON" 
     style="border: 3px solid #FF0000; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" />
 </p>
