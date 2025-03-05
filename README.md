@@ -63,7 +63,7 @@
 | [piege_voleur](https://github.com/trh4ckn0n/piege_voleur) | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [Profile-Readme-WakaTime](https://github.com/trh4ckn0n/Profile-Readme-WakaTime) | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 04 Mar 2025 | ❌ |
+| [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [Simple-RAG-Chatbot](https://github.com/trh4ckn0n/Simple-RAG-Chatbot) | Build a simple RAG chatbot with LangChain and Streamlit | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [termux-desktop](https://github.com/trh4ckn0n/termux-desktop) | Setup A Beautiful Desktop/GUI In Termux | Non spécifié | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
 | [theZoo](https://github.com/trh4ckn0n/theZoo) | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
@@ -72,7 +72,7 @@
 | [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
 | [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [V3n0M-Scanner](https://github.com/trh4ckn0n/V3n0M-Scanner) | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
-| [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 04 Mar 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
+| [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 05 Mar 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
 | [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
