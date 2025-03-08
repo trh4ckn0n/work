@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media0.giphy.com/media/DqiMTFxiXx0VaVZQbF/giphy.gif?cid=6c09b952fmcs777wkiz4sumix203z9srxl9h7f5azg9fdo1a&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -58,13 +58,13 @@
 | [escrow](https://github.com/trh4ckn0n/escrow) | Aucune description | Python | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [gentor](https://github.com/trh4ckn0n/gentor) | Aucune description | HTML | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
-| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 07 Mar 2025 | ❌ |
+| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 08 Mar 2025 | ❌ |
 | [nuclei-templates](https://github.com/trh4ckn0n/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | Non spécifié | 0⭐ | 0🍴 | 24 Feb 2025 | ❌ |
 | [PhpFbGuard](https://github.com/trh4ckn0n/PhpFbGuard) | PhpFbGuard is a web app that forces to enable facebook's new feature called Profile picture guard, that isn't available to everyone (yet) | PHP | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 | [piege_voleur](https://github.com/trh4ckn0n/piege_voleur) | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [Profile-Readme-WakaTime](https://github.com/trh4ckn0n/Profile-Readme-WakaTime) | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
-| [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 07 Mar 2025 | ❌ |
+| [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 08 Mar 2025 | ❌ |
 | [secret](https://github.com/trh4ckn0n/secret) | Aucune description | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [Simple-RAG-Chatbot](https://github.com/trh4ckn0n/Simple-RAG-Chatbot) | Build a simple RAG chatbot with LangChain and Streamlit | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [Temp-SMS-Receive](https://github.com/trh4ckn0n/Temp-SMS-Receive) | Aucune description | Python | 0⭐ | 0🍴 | 07 Mar 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/Temp-SMS-Receive/) |
@@ -75,7 +75,7 @@
 | [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
 | [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [V3n0M-Scanner](https://github.com/trh4ckn0n/V3n0M-Scanner) | Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
-| [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 07 Mar 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
+| [work](https://github.com/trh4ckn0n/work) | Generate README.md via python and workflows | Python | 0⭐ | 0🍴 | 08 Mar 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/work/) |
 | [wp-theme-gen](https://github.com/trh4ckn0n/wp-theme-gen) | Aucune description | Python | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
