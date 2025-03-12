@@ -53,11 +53,13 @@
 | [Astro-modules](https://github.com/trh4ckn0n/Astro-modules) | Cool modules for Telegram UserBot Hikka | Non spécifié | 0⭐ | 0🍴 | 06 Mar 2025 | ❌ |
 | [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [chatbot-streamlit-openai](https://github.com/trh4ckn0n/chatbot-streamlit-openai) | Streamlit + OpenAI = Interactive conversational chatbot using Python | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
+| [CVE-2025-27840](https://github.com/trh4ckn0n/CVE-2025-27840) | Expanded version of the code shown at RootedCON redone in python - CVE-2025-27840 | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
 | [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
 | [diy](https://github.com/trh4ckn0n/diy) | Aucune description | Python | 0⭐ | 0🍴 | 03 Mar 2025 | ❌ |
 | [escrow](https://github.com/trh4ckn0n/escrow) | Aucune description | Python | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [gentor](https://github.com/trh4ckn0n/gentor) | Aucune description | HTML | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
+| [i-Drive](https://github.com/trh4ckn0n/i-Drive) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
 | [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
 | [nuclei-templates](https://github.com/trh4ckn0n/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | Non spécifié | 0⭐ | 0🍴 | 24 Feb 2025 | ❌ |
 | [ope](https://github.com/trh4ckn0n/ope) | Aucune description | Python | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
