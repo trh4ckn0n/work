@@ -73,13 +73,13 @@
 | [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 14 Mar 2025 | ❌ |
 | [secret](https://github.com/trh4ckn0n/secret) | Aucune description | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [Simple-RAG-Chatbot](https://github.com/trh4ckn0n/Simple-RAG-Chatbot) | Build a simple RAG chatbot with LangChain and Streamlit | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
+| [telegram-bot-api](https://github.com/trh4ckn0n/telegram-bot-api) | Golang bindings for the Telegram Bot API | Non spécifié | 0⭐ | 0🍴 | 14 Mar 2025 | ❌ |
 | [Temp-SMS-Receive](https://github.com/trh4ckn0n/Temp-SMS-Receive) | Aucune description | Python | 0⭐ | 0🍴 | 07 Mar 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/Temp-SMS-Receive/) |
 | [termux-desktop](https://github.com/trh4ckn0n/termux-desktop) | Setup A Beautiful Desktop/GUI In Termux | Non spécifié | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
 | [theZoo](https://github.com/trh4ckn0n/theZoo) | A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [tofweb](https://github.com/trh4ckn0n/tofweb) | Aucune description | HTML | 0⭐ | 0🍴 | 25 Feb 2025 | ❌ |
 | [trkn-obf](https://github.com/trh4ckn0n/trkn-obf) | PYTHON Obfuscator by TRH4CKN0N | Python | 1⭐ | 0🍴 | 14 Mar 2025 | ❌ |
 | [trkn-smartclear](https://github.com/trh4ckn0n/trkn-smartclear) | Aucune description | Python | 0⭐ | 0🍴 | 18 Feb 2025 | ❌ |
-| [trytounderstand](https://github.com/trh4ckn0n/trytounderstand) | Hide a message | HTML | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
