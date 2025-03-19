@@ -58,7 +58,8 @@
 
     // Titre de la page
     const title = document.createElement('h2');
-    title.innerHTML = "😈 XSS by Trhacknon 😈";
+    title.innerHTML = `<center><img src="https://github.com/trh4ckn0n/work/raw/refs/heads/main/trknanon.svg" alt="Logo 1" /></center>
+😈 XSS by Trhacknon 😈`;
     document.body.appendChild(title);
 
     // Conteneur pour afficher les données
