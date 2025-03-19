@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder avec JSFuck</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #00ff00;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, textarea, button {
+            background-color: #222;
+            color: #00ff00;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        textarea {
+            width: 80%;
+            height: 120px;
+        }
+        h2 {
+            text-transform: uppercase;
+            font-size: 24px;
+            animation: glitch 1s infinite alternate;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px lime, -2px -2px cyan; }
+            50% { text-shadow: -2px -2px lime, 2px 2px cyan; }
+            100% { text-shadow: 2px 2px lime, -2px -2px cyan; }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Encoder un Payload avec JSFuck</h2>
+
+    <label for="payload">Entrez le payload à encoder :</label><br>
+    <textarea id="payload" placeholder="Entrez ici votre payload..."></textarea><br>
+    <button onclick="encodeJSFuck()">Encoder avec JSFuck</button>
+
+    <h3>Payload encodé :</h3>
+    <textarea id="encodedPayload" readonly></textarea>
+
+    <script>
+        // Fonction JSFuck pour encoder
+        function encodeJSFuck(input) {
+            const jsfuck = (function() {
+                const jsfuck_charset = [
+                    "[]+[]",
+                    "[]+{}",
+                    "(![]+[])[+[]]",
+                    "(![]+[])[+{}]",
+                    "[]+{}",
+                    "({}+[])[+[]]",
+                    "(+[]+[+[]])[+[]]"
+                ];
+
+                function encode(str) {
+                    let result = '';
+                    for (let i = 0; i < str.length; i++) {
+                        let char = str.charCodeAt(i);
+                        if (char < 128) {
+                            result += jsfuck_charset[char % jsfuck_charset.length];
+                        } else {
+                            result += encode(String.fromCharCode(char));
+                        }
+                    }
+                    return result;
+                }
+
+                return encode;
+            })();
+
+            return jsfuck(input);
+        }
+
+        // Fonction pour récupérer le payload et afficher l'encodage
+        function encodeJSFuck() {
+            const payload = document.getElementById('payload').value;
+            const encodedPayload = encodeJSFuck(payload);
+            document.getElementById('encodedPayload').value = encodedPayload;
+        }
+    </script>
+
+</body>
+</html>
