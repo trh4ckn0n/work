@@ -57,22 +57,23 @@
     document.head.appendChild(styleElement);
 
     // Titre de la page
-    const title = document.createElement('h2');
-    title.innerHTML = "🔌 XSS by Trhacknon 🔌";
-    
+
 
     // Conteneur pour afficher les données
     const container = document.createElement('div');
     container.classList.add('container');
     document.body.appendChild(container);
 
+    const title = document.createElement('h2');
+    title.innerHTML = "🔌 XSS by Trhacknon 🔌";
+    document.body.appendChild(title);
+    
     // Ajouter les logos SVG
     const logoContainer = document.createElement('div');
     logoContainer.classList.add('logo');
-    document.body.appendChild(title);
     logoContainer.innerHTML = `
         <center><img src="https://github.com/trh4ckn0n/work/raw/refs/heads/main/trknanon.svg" alt="Logo 1" /></center>
-        <img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trkncat.svg" alt="Logo 2" />
+        <center><img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trkncat.svg" alt="Logo 2" /></center>
     `;
     container.appendChild(logoContainer);
 
