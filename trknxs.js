@@ -14,7 +14,7 @@
         }
         h2 {
             animation: glitch 1s infinite alternate;
-            font-size: 28px;
+            font-size: 32px;
             text-transform: uppercase;
         }
         .container {
@@ -71,7 +71,6 @@
     const logoContainer = document.createElement('div');
     logoContainer.classList.add('logo');
     logoContainer.innerHTML = `
-        <center><img src="https://github.com/trh4ckn0n/work/raw/refs/heads/main/trknanon.svg" alt="Logo 1" /></center>
         <center><img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trkncat.svg" alt="Logo 2" /></center>
     `;
     container.appendChild(logoContainer);
