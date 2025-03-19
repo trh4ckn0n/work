@@ -59,21 +59,22 @@
     // Titre de la page
     const title = document.createElement('h2');
     title.innerHTML = "🔌 XSS by Trhacknon 🔌";
-    // Ajouter les logos SVG
-    container.appendChild(logoContainer);
+    
+
     // Conteneur pour afficher les données
     const container = document.createElement('div');
     container.classList.add('container');
     document.body.appendChild(container);
+
+    // Ajouter les logos SVG
     const logoContainer = document.createElement('div');
     logoContainer.classList.add('logo');
-    document.body.appendChild(title);
     logoContainer.innerHTML = `
-        <center><img src="https://github.com/trh4ckn0n/work/raw/refs/heads/main/trknanon.svg" alt="Logo 1" /></center><br>
-        <center><img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trkncat.svg" alt="Logo 2" /></center>
+        <img src="https://github.com/trh4ckn0n/work/raw/refs/heads/main/trknanon.svg" alt="Logo 1" />
+        <img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trkncat.svg" alt="Logo 2" />
     `;
-
-
+    document.body.appendChild(title);
+    container.appendChild(logoContainer);
 
     // Table pour afficher les informations collectées
     const table = document.createElement('table');
