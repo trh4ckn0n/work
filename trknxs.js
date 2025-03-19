@@ -45,7 +45,7 @@
             animation: glitch 1s infinite alternate;
         }
         .logo img {
-            width: 100px;
+            width: 150px;
             height: auto;
             margin: 10px;
         }
