@@ -40,6 +40,15 @@
             background: darkgreen;
             color: white;
         }
+        .logo {
+            margin-top: 20px;
+            animation: glitch 1s infinite alternate;
+        }
+        .logo img {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+        }
     `;
 
     // Ajouter le style à la page
@@ -56,6 +65,15 @@
     const container = document.createElement('div');
     container.classList.add('container');
     document.body.appendChild(container);
+
+    // Ajouter les logos SVG
+    const logoContainer = document.createElement('div');
+    logoContainer.classList.add('logo');
+    logoContainer.innerHTML = `
+        <img src="https://github.com/trh4ckn0n/work/raw/refs/heads/main/trknanon.svg" alt="Logo 1" />
+        <img src="https://raw.githubusercontent.com/trh4ckn0n/work/refs/heads/main/trkncat.svg" alt="Logo 2" />
+    `;
+    container.appendChild(logoContainer);
 
     // Table pour afficher les informations collectées
     const table = document.createElement('table');
