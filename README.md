@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media0.giphy.com/media/DqiMTFxiXx0VaVZQbF/giphy.gif?cid=6c09b952fmcs777wkiz4sumix203z9srxl9h7f5azg9fdo1a&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -54,6 +54,7 @@
 | [Amazon-Prime-Clone](https://github.com/trh4ckn0n/Amazon-Prime-Clone) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 13 Mar 2025 | ❌ |
 | [amazon-prime-video-site](https://github.com/trh4ckn0n/amazon-prime-video-site) | Aucune description | CSS | 0⭐ | 0🍴 | 13 Mar 2025 | ❌ |
 | [Astro-modules](https://github.com/trh4ckn0n/Astro-modules) | Cool modules for Telegram UserBot Hikka | Non spécifié | 0⭐ | 0🍴 | 06 Mar 2025 | ❌ |
+| [avatar](https://github.com/trh4ckn0n/avatar) | Aucune description | Python | 0⭐ | 0🍴 | 22 Mar 2025 | ❌ |
 | [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [chatbot-streamlit-openai](https://github.com/trh4ckn0n/chatbot-streamlit-openai) | Streamlit + OpenAI = Interactive conversational chatbot using Python | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [ControlNetPlus](https://github.com/trh4ckn0n/ControlNetPlus) | ControlNet++: All-in-one ControlNet for image generations and editing! | Non spécifié | 0⭐ | 0🍴 | 16 Mar 2025 | ❌ |
@@ -79,7 +80,6 @@
 | [Simple-RAG-Chatbot](https://github.com/trh4ckn0n/Simple-RAG-Chatbot) | Build a simple RAG chatbot with LangChain and Streamlit | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [subdom-gui](https://github.com/trh4ckn0n/subdom-gui) | Aucune description | Python | 0⭐ | 0🍴 | 21 Mar 2025 | ❌ |
 | [telegram-bot-api](https://github.com/trh4ckn0n/telegram-bot-api) | Golang bindings for the Telegram Bot API | Non spécifié | 0⭐ | 0🍴 | 14 Mar 2025 | ❌ |
-| [Temp-SMS-Receive](https://github.com/trh4ckn0n/Temp-SMS-Receive) | Aucune description | Python | 0⭐ | 0🍴 | 07 Mar 2025 | [🌍 Voir ici](https://trh4ckn0n.github.io/Temp-SMS-Receive/) |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
