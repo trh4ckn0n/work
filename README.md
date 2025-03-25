@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -67,8 +67,9 @@
 | [escrow](https://github.com/trh4ckn0n/escrow) | Aucune description | Python | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [gentor](https://github.com/trh4ckn0n/gentor) | Aucune description | HTML | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
+| [geotrhack](https://github.com/trh4ckn0n/geotrhack) | Aucune description | JavaScript | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
 | [i-Drive](https://github.com/trh4ckn0n/i-Drive) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
-| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
+| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 25 Mar 2025 | ❌ |
 | [mmhweb](https://github.com/trh4ckn0n/mmhweb) | Aucune description | Python | 0⭐ | 0🍴 | 15 Mar 2025 | ❌ |
 | [nuclei-templates](https://github.com/trh4ckn0n/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | Non spécifié | 0⭐ | 0🍴 | 24 Feb 2025 | ❌ |
 | [ope](https://github.com/trh4ckn0n/ope) | Aucune description | Python | 0⭐ | 0🍴 | 15 Mar 2025 | ❌ |
@@ -79,7 +80,6 @@
 | [Reverse-Shell-Whatsapp](https://github.com/trh4ckn0n/Reverse-Shell-Whatsapp) | Demonstration of a critical vulnerability in WhatsApp that allows automatic execution of malicious .pyz (Python) files, leading to a reverse shell and privilege escalation on Windows systems. This exploit bypasses security checks in Windows Defender, UAC, antivirus software, and WhatsApp itself. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [scrapnotif](https://github.com/trh4ckn0n/scrapnotif) | Aucune description | Python | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
 | [secret](https://github.com/trh4ckn0n/secret) | Aucune description | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
-| [Simple-RAG-Chatbot](https://github.com/trh4ckn0n/Simple-RAG-Chatbot) | Build a simple RAG chatbot with LangChain and Streamlit | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
