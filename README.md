@@ -68,6 +68,7 @@
 | [escrow](https://github.com/trh4ckn0n/escrow) | Aucune description | Python | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [frontgeo](https://github.com/trh4ckn0n/frontgeo) | Aucune description | Python | 0⭐ | 0🍴 | 27 Mar 2025 | ❌ |
+| [gam](https://github.com/trh4ckn0n/gam) | By TRHACKNON | HTML | 0⭐ | 0🍴 | 30 Mar 2025 | ❌ |
 | [gentor](https://github.com/trh4ckn0n/gentor) | Aucune description | HTML | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 | [geotrhack](https://github.com/trh4ckn0n/geotrhack) | Aucune description | JavaScript | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
 | [i-Drive](https://github.com/trh4ckn0n/i-Drive) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
@@ -79,7 +80,6 @@
 | [PhpFbGuard](https://github.com/trh4ckn0n/PhpFbGuard) | PhpFbGuard is a web app that forces to enable facebook's new feature called Profile picture guard, that isn't available to everyone (yet) | PHP | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 | [piege_voleur](https://github.com/trh4ckn0n/piege_voleur) | Aucune description | Shell | 0⭐ | 0🍴 | 21 Feb 2025 | ❌ |
 | [Prime-Video-Clone](https://github.com/trh4ckn0n/Prime-Video-Clone) | Cloning the Amazon Prime Video Website using HTML, CSS, JavaScript and ReactJS | CSS | 0⭐ | 0🍴 | 13 Mar 2025 | ❌ |
-| [Profile-Readme-WakaTime](https://github.com/trh4ckn0n/Profile-Readme-WakaTime) | Generate coding activity graph tracked by WakaTime to embed in Readme(s) and webpages. | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
