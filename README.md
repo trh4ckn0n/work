@@ -63,6 +63,7 @@
 | [dall](https://github.com/trh4ckn0n/dall) | Aucune description | Python | 0⭐ | 0🍴 | 23 Mar 2025 | ❌ |
 | [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
 | [dallog](https://github.com/trh4ckn0n/dallog) | Aucune description | Python | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
+| [dallweb](https://github.com/trh4ckn0n/dallweb) | Aucune description | Python | 0⭐ | 0🍴 | 04 Apr 2025 | ❌ |
 | [delbck](https://github.com/trh4ckn0n/delbck) | Aucune description | Python | 0⭐ | 0🍴 | 22 Mar 2025 | ❌ |
 | [diy](https://github.com/trh4ckn0n/diy) | Aucune description | Python | 0⭐ | 0🍴 | 03 Mar 2025 | ❌ |
 | [escrow](https://github.com/trh4ckn0n/escrow) | Aucune description | Python | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
@@ -74,12 +75,11 @@
 | [geotrhack](https://github.com/trh4ckn0n/geotrhack) | Aucune description | JavaScript | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
 | [i-Drive](https://github.com/trh4ckn0n/i-Drive) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
 | [Insta-login](https://github.com/trh4ckn0n/Insta-login) | Instagram login page clone which send your victim's credentials through email, using html css & php | Non spécifié | 0⭐ | 0🍴 | 28 Mar 2025 | ❌ |
-| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 04 Apr 2025 | ❌ |
+| [komjaime](https://github.com/trh4ckn0n/komjaime) | commejaime clone | HTML | 0⭐ | 0🍴 | 05 Apr 2025 | ❌ |
 | [mmhweb](https://github.com/trh4ckn0n/mmhweb) | Aucune description | Python | 0⭐ | 0🍴 | 15 Mar 2025 | ❌ |
 | [NetSoc_OSINT](https://github.com/trh4ckn0n/NetSoc_OSINT) | Tool focused on extracting information from an account in different Social Networks / Herramienta enfocada a extraer información de una cuenta en diversas Redes Sociales, SIN usar nuestra Cuenta, NI API y SIN Límite. [NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]  | Non spécifié | 0⭐ | 0🍴 | 03 Apr 2025 | ❌ |
 | [nuclei-templates](https://github.com/trh4ckn0n/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | Non spécifié | 0⭐ | 0🍴 | 24 Feb 2025 | ❌ |
 | [ope](https://github.com/trh4ckn0n/ope) | Aucune description | Python | 0⭐ | 0🍴 | 15 Mar 2025 | ❌ |
-| [PhpFbGuard](https://github.com/trh4ckn0n/PhpFbGuard) | PhpFbGuard is a web app that forces to enable facebook's new feature called Profile picture guard, that isn't available to everyone (yet) | PHP | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
