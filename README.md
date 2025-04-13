@@ -58,7 +58,7 @@
 | [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [backgeo](https://github.com/trh4ckn0n/backgeo) | Aucune description | Python | 0⭐ | 0🍴 | 27 Mar 2025 | ❌ |
 | [bluu](https://github.com/trh4ckn0n/bluu) | Aucune description | CSS | 0⭐ | 0🍴 | 07 Apr 2025 | ❌ |
-| [chall-ua-captcha](https://github.com/trh4ckn0n/chall-ua-captcha) | Aucune description | Python | 0⭐ | 0🍴 | 12 Apr 2025 | ❌ |
+| [chall-ua-captcha](https://github.com/trh4ckn0n/chall-ua-captcha) | Aucune description | HTML | 0⭐ | 0🍴 | 13 Apr 2025 | ❌ |
 | [chatbot-streamlit-openai](https://github.com/trh4ckn0n/chatbot-streamlit-openai) | Streamlit + OpenAI = Interactive conversational chatbot using Python | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [ControlNetPlus](https://github.com/trh4ckn0n/ControlNetPlus) | ControlNet++: All-in-one ControlNet for image generations and editing! | Non spécifié | 0⭐ | 0🍴 | 16 Mar 2025 | ❌ |
 | [CVE-2025-27840](https://github.com/trh4ckn0n/CVE-2025-27840) | Expanded version of the code shown at RootedCON redone in python - CVE-2025-27840 | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
