@@ -1,7 +1,8 @@
+# .github/workflows/deploy.yml
 name: Deploy GitHub Pages manually
 
 on:
-  workflow_dispatch:  # déclenchement manuel uniquement
+  workflow_dispatch:
 
 permissions:
   contents: read
