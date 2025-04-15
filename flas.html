@@ -1,35 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+  <meta charset="UTF-8">
+  <title>FlaskFinder by trhacknon</title>
   <style>
     body {
-      background: #111;
-      color: #0f0;
-      font-family: monospace;
-      padding: 20px;
+      background: #0a0a0a;
+      color: #00ff66;
+      font-family: 'Courier New', monospace;
+      padding: 30px;
+      text-align: center;
+    }
+    h1, h2 {
+      color: #00ff66;
+      text-shadow: 0 0 5px #00ff66;
     }
     pre {
-      background: #222;
-      color: #0f0;
-      padding: 10px;
-      border: 1px solid #0f0;
+      background: #111;
+      color: #00ff66;
+      padding: 15px;
+      border: 1px solid #00ff66;
       border-radius: 5px;
       overflow-x: auto;
     }
-    code {
-      font-family: monospace;
+    a.bookmarklet {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 12px 24px;
+      background: #00ff66;
+      color: #000;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 0 10px #00ff66;
+    }
+    .step {
+      margin-top: 30px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #111;
+      padding: 20px;
+      border-left: 5px solid #00ff66;
+      border-radius: 5px;
+    }
+    .step h3 {
+      color: #00ff99;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
-  <meta charset="UTF-8">
-  <title>FlaskFinder Bookmarklet</title>
 </head>
-<body style="background:#111;color:#0f0;font-family:monospace;text-align:center;padding:30px;">
-  <h2>FlaskFinder Bookmarklet</h2>
- <pre><code>javascript:(()=>{let s=document.createElement('script');s.src='http://trknn.0delta.cz/flas.js';document.body.appendChild(s);})();</code></pre>
-  <p>Fais glisser ce bouton vers ta barre de favoris :</p>
-  <a href="javascript:(()=>{let s=document.createElement('script');s.src='http://trknn.0delta.cz/flas.js?'+Date.now();document.body.appendChild(s);})();"
-     style="display:inline-block;padding:10px 20px;background:#0f0;color:#000;border-radius:5px;font-weight:bold;text-decoration:none;">
-    FlaskFinder
+<body>
+
+  <h1>FlaskFinder Bookmarklet</h1>
+  <h2>Un outil by <strong>trhacknon</strong> pour traquer les endpoints Flask</h2>
+
+  <div class="step">
+    <h3>Étape 1 — C'est quoi ce truc ?</h3>
+    <p>
+      Ce <strong>bookmarklet</strong> permet de charger un script JavaScript depuis un site externe qui scanne une page
+      web à la recherche d’indices typiques de projets Flask (Python).
+    </p>
+    <p>
+      En gros : tu le déclenches → il s’injecte → il te montre ce qu’il trouve. C’est rapide, propre, discret.
+    </p>
+  </div>
+
+  <div class="step">
+    <h3>Étape 2 — Comment l’utiliser ?</h3>
+    <ol>
+      <li>Fais glisser le bouton ci-dessous dans ta barre de favoris (ou clic droit → "Ajouter aux favoris").</li>
+      <li>Va sur n’importe quel site que tu veux analyser.</li>
+      <li>Clique sur ton favori "FlaskFinder" et laisse la magie opérer.</li>
+    </ol>
+  </div>
+
+  <div class="step">
+    <h3>Étape 3 — Le code (si tu veux le forker)</h3>
+    <pre><code>javascript:(()=>{let s=document.createElement('script');s.src='http://trknn.0delta.cz/flas.js?'+Date.now();document.body.appendChild(s);})();</code></pre>
+  </div>
+
+  <a class="bookmarklet" href="javascript:(()=>{let s=document.createElement('script');s.src='http://trknn.0delta.cz/flas.js?'+Date.now();document.body.appendChild(s);})();">
+    Lancer FlaskFinder
   </a>
+
+  <footer>
+    Créé avec amour et un peu de JS par <strong>trhacknon</strong><br>
+    À utiliser à des fins éducatives uniquement.
+  </footer>
+
 </body>
 </html>
