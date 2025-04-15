@@ -1,9 +1,8 @@
-name: Deploy to GitHub Pages
+# .github/workflows/deploy.yml
+name: Manual Deploy GitHub Pages
 
 on:
-  push:
-    branches:
-      - gh-pages  # ou master selon ton nom de branche
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -19,20 +18,21 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout gh-pages
         uses: actions/checkout@v4
+        with:
+          ref: gh-pages
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      - name: Upload site
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: '.'
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
