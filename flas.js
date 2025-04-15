@@ -1,7 +1,7 @@
 (async () => {
   // Liste des chemins à tester (peut être modifiée ou chargée par fichier)
   const paths = [
-    "/", "/login", "/logout", "/register", "/enonce",
+    "/", "/login", "/flas.html", "/logout", "/register", "/enonce",
     "/api/", "/api/v1/users", "/api/v1/data", "/api/v1/items",
     "/api/v1/products", "/api/v1/categories", "/api/v1/orders", "/api/v1/authenticate",
     "/admin", "/admin/dashboard", "/admin/users", "/admin/settings", "/admin/reports",
