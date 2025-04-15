@@ -144,7 +144,7 @@
   box.id = "ffscan";
   box.innerHTML = `
     <div class="toggle" title="Toggle">–</div>
-    <h1>FlaskFinder UI</h1>
+    <h1>FlaskFinder by TRHACKNON - UI</h1>
     <textarea id="ff-words">${paths.join("\n")}</textarea>
     <input type="file" id="ff-file" accept=".txt">
     <button id="ff-scan">Scan</button>
