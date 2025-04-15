@@ -1,17 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>FlaskFinder UI</title>
+  <meta charset="UTF-8">
+  <title>FlaskFinder Bookmarklet</title>
 </head>
-<body>
-    <h2>Click below to activate the bookmarklet:</h2>
-    <button onclick="
-(async()=>{const paths=["/","/login","/logout","/register","/enonce","/api/","/api/v1/users","/api/v1/data","/api/v1/items","/api/v1/products","/api/v1/categories","/api/v1/orders","/api/v1/authenticate","/admin","/admin/dashboard","/admin/users","/admin/settings","/admin/reports","/admin/notifications","/admin/logs","/admin/permissions","/dashboard","/profile","/profile/edit","/profile/settings","/profile/password","/health","/debug","/debug/info","/debug/logs","/debug/errors","/debug/stacktrace","/static/app"];const results=[],detections=new Set(),style="#ffscan{position:fixed;top:10px;right:10px;width:500px;max-height:92vh;z-index:99999;font-family:'Courier New',monospace;font-size:13px;background:#111;color:#eee;border:2px solid #0f0;border-radius:10px;padding:10px;box-shadow:0 0 25px #0f08;overflow-y:auto;transition:.3s;}#ffscan h1{font-size:18px;text-align:center;color:#0ff;margin-bottom:10px;}#ffscan .res{margin-bottom:4px;padding:2px 6px;border-left:4px solid #222;border-radius:4px;}#ffscan .status-200{border-left-color:#0f0;}#ffscan .status-404{border-left-color:#f00;}#ffscan .status-500{border-left-color:#f80;}#ffscan .toggle{position:absolute;top:4px;left:10px;background:#222;color:#0ff;padding:2px 8px;border-radius:4px;cursor:pointer;}#ffscan.collapsed{height:30px;overflow:hidden;}#ffscan .console{margin-top:6px;color:#0f0;}#ffscan .footer{margin-top:6px;text-align:center;font-size:11px;color:#777;}";const styleEl=document.createElement("style");styleEl.innerText=style;document.head.appendChild(styleEl);const panel=document.createElement("div");panel.id="ffscan";panel.innerHTML='<div class="toggle" title="Toggle">–</div><h1>FlaskFinder UI</h1><textarea id="ff-words">'+paths.join("\n")+'</textarea><input type="file" id="ff-file" accept=".txt"><button id="ff-scan">Scan</button><button id="ff-export-json">Export JSON</button><button id="ff-export-csv">Export CSV</button><div id="ff-output"></div><div class="console"><b>Detected:</b> <span id="ff-detected">–</span></div><div class="footer">by <span style="color:#f0f">trhacknon</span> – for educational use</div>';document.body.appendChild(panel);async function scan(){results.length=0;detections.clear();const o=document.getElementById("ff-output");o.innerHTML="";const e=document.getElementById("ff-words").value.split("\n").map(e=>e.trim()).filter(Boolean),t=window.location.origin;for(const n of e){const e=t+n;try{const t=await fetch(e),s=t.headers.get("Content-Type")||"",r=t.headers.get("Server")||"",a=await t.text();r.toLowerCase().includes("werkzeug")&&detections.add("Flask (Werkzeug header)"),/flask|werkzeug|traceback|Exception/i.test(a)&&detections.add("Flask (body match)"),results.push({path:n,status:t.status,contentType:s,server:r,snippet:a.slice(0,120).replace(/\n/g," ")||""});const d=document.createElement("div");d.className="res status-"+t.status,d.innerText=n+" ["+t.status+"] "+(s.includes("json")?"JSON":s.includes("html")?"HTML":"");o.appendChild(d)}catch(e){results.push({path:n,status:"ERR",contentType:"",server:"",snippet:""});const t=document.createElement("div");t.className="res status-404",t.innerText=n+" [ERR]",o.appendChild(t)}}document.getElementById("ff-detected").innerText=[...detections].join(", ")||"–"}function exportJSON(){const t=new Blob([JSON.stringify(results,null,2)],{type:"application/json"}),e=URL.createObjectURL(t),o=document.createElement("a");o.href=e,o.download="flaskfinder_"+Date.now()+".json",o.click()}function exportCSV(){const e=["path,status,contentType,server,snippet"];for(const t of results)e.push(`"${t.path}","${t.status}","${t.contentType}","${t.server}","${t.snippet.replace(/"/g,'""')}"`);const t=new Blob([e.join("\n")],{type:"text/csv"}),o=URL.createObjectURL(t),n=document.createElement("a");n.href=o,n.download="flaskfinder_"+Date.now()+".csv",n.click()}function handleFileUpload(t){const e=new FileReader;e.onload=function(){document.getElementById("ff-words").value=e.result},e.readAsText(t)}document.getElementById("ff-scan").onclick=scan;document.getElementById("ff-export-json").onclick=exportJSON;document.getElementById("ff-export-csv").onclick=exportCSV;document.getElementById("ff-file").onchange=e=>{e.target.files[0]&&handleFileUpload(e.target.files[0])};document.querySelector("#ffscan .toggle").onclick=()=>{panel.classList.toggle("collapsed")}})();
-">Launch FlaskFinder UI</button>
-<script>
-javascript:(()=>{let s=document.createElement('script');s.src='http://trknn.0delta.cz/flas.js';document.body.appendChild(s);})();
-</script>
+<body style="background:#111;color:#0f0;font-family:monospace;text-align:center;padding:30px;">
+  <h2>FlaskFinder Bookmarklet</h2>
+  <p>Fais glisser ce bouton vers ta barre de favoris :</p>
+  <a href="javascript:(()=>{let s=document.createElement('script');s.src='http://trknn.0delta.cz/flas.js?'+Date.now();document.body.appendChild(s);})();"
+     style="display:inline-block;padding:10px 20px;background:#0f0;color:#000;border-radius:5px;font-weight:bold;text-decoration:none;">
+    FlaskFinder
+  </a>
 </body>
 </html>
