@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media0.giphy.com/media/DqiMTFxiXx0VaVZQbF/giphy.gif?cid=6c09b952fmcs777wkiz4sumix203z9srxl9h7f5azg9fdo1a&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -50,6 +50,7 @@
 ### 📂 Mes Repositories
 | 🔹 Nom | 📝 Description | 💻 Langage | ⭐ Stars | 🍴 Forks | 🕒 Dernière MAJ | 🌍 GitHub Pages |
 |--------|--------------|------------|---------|---------|---------------|-----------------|
+| [3rddring](https://github.com/trh4ckn0n/3rddring) | Aucune description | Python | 0⭐ | 0🍴 | 28 Apr 2025 | ❌ |
 | [aaPanel](https://github.com/trh4ckn0n/aaPanel) | Simple but Powerful web-based Control Panel | Python | 0⭐ | 0🍴 | 17 Mar 2025 | ❌ |
 | [Amazon-Prime-Clone](https://github.com/trh4ckn0n/Amazon-Prime-Clone) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 13 Mar 2025 | ❌ |
 | [amazon-prime-video-site](https://github.com/trh4ckn0n/amazon-prime-video-site) | Aucune description | CSS | 0⭐ | 0🍴 | 13 Mar 2025 | ❌ |
@@ -79,7 +80,6 @@
 | [gam](https://github.com/trh4ckn0n/gam) | By TRHACKNON | HTML | 0⭐ | 0🍴 | 30 Mar 2025 | ❌ |
 | [gentor](https://github.com/trh4ckn0n/gentor) | Aucune description | HTML | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
 | [geotrhack](https://github.com/trh4ckn0n/geotrhack) | Aucune description | JavaScript | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
-| [gptwgen](https://github.com/trh4ckn0n/gptwgen) | Aucune description | HTML | 0⭐ | 0🍴 | 20 Apr 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
