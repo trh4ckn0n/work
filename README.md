@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media0.giphy.com/media/DqiMTFxiXx0VaVZQbF/giphy.gif?cid=6c09b952fmcs777wkiz4sumix203z9srxl9h7f5azg9fdo1a&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -62,6 +62,7 @@
 | [bluu](https://github.com/trh4ckn0n/bluu) | Aucune description | CSS | 0⭐ | 0🍴 | 07 Apr 2025 | ❌ |
 | [chall-ua-captcha](https://github.com/trh4ckn0n/chall-ua-captcha) | Aucune description | Python | 0⭐ | 0🍴 | 14 Apr 2025 | ❌ |
 | [chatbot-streamlit-openai](https://github.com/trh4ckn0n/chatbot-streamlit-openai) | Streamlit + OpenAI = Interactive conversational chatbot using Python | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
+| [cod-ng-chall](https://github.com/trh4ckn0n/cod-ng-chall) | Aucune description | HTML | 0⭐ | 0🍴 | 30 Apr 2025 | ❌ |
 | [ControlNetPlus](https://github.com/trh4ckn0n/ControlNetPlus) | ControlNet++: All-in-one ControlNet for image generations and editing! | Non spécifié | 0⭐ | 0🍴 | 16 Mar 2025 | ❌ |
 | [CVE-2023-29357](https://github.com/trh4ckn0n/CVE-2023-29357) | Microsoft SharePoint Server Elevation of Privilege Vulnerability | Non spécifié | 0⭐ | 0🍴 | 23 Apr 2025 | ❌ |
 | [CVE-2025-27840](https://github.com/trh4ckn0n/CVE-2025-27840) | Expanded version of the code shown at RootedCON redone in python - CVE-2025-27840 | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
@@ -79,7 +80,6 @@
 | [fuzztastic](https://github.com/trh4ckn0n/fuzztastic) | Aucune description | Python | 0⭐ | 0🍴 | 14 Apr 2025 | ❌ |
 | [gam](https://github.com/trh4ckn0n/gam) | By TRHACKNON | HTML | 0⭐ | 0🍴 | 30 Mar 2025 | ❌ |
 | [gentor](https://github.com/trh4ckn0n/gentor) | Aucune description | HTML | 0⭐ | 0🍴 | 26 Feb 2025 | ❌ |
-| [geotrhack](https://github.com/trh4ckn0n/geotrhack) | Aucune description | JavaScript | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
