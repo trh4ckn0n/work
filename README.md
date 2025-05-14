@@ -78,8 +78,8 @@
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [fast-mail-bomber](https://github.com/trh4ckn0n/fast-mail-bomber) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 03 Apr 2025 | ❌ |
 | [fb-downloder](https://github.com/trh4ckn0n/fb-downloder) | FB Video Downloader | CSS | 0⭐ | 0🍴 | 15 Apr 2025 | ❌ |
+| [files](https://github.com/trh4ckn0n/files) | Aucune description | Python | 0⭐ | 0🍴 | 14 May 2025 | ❌ |
 | [frontgeo](https://github.com/trh4ckn0n/frontgeo) | Aucune description | Python | 0⭐ | 0🍴 | 27 Mar 2025 | ❌ |
-| [fuzztastic](https://github.com/trh4ckn0n/fuzztastic) | Aucune description | Python | 0⭐ | 0🍴 | 14 Apr 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
