@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -55,6 +55,7 @@
 | [alright](https://github.com/trh4ckn0n/alright) | Python wrapper for WhatsApp web-based on selenium  | Non spécifié | 0⭐ | 0🍴 | 12 May 2025 | ❌ |
 | [Amazon-Prime-Clone](https://github.com/trh4ckn0n/Amazon-Prime-Clone) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 13 Mar 2025 | ❌ |
 | [amazon-prime-video-site](https://github.com/trh4ckn0n/amazon-prime-video-site) | Aucune description | CSS | 0⭐ | 0🍴 | 13 Mar 2025 | ❌ |
+| [anonew](https://github.com/trh4ckn0n/anonew) | Aucune description | HTML | 0⭐ | 0🍴 | 24 Jun 2025 | ❌ |
 | [Astro-modules](https://github.com/trh4ckn0n/Astro-modules) | Cool modules for Telegram UserBot Hikka | Non spécifié | 0⭐ | 0🍴 | 06 Mar 2025 | ❌ |
 | [avatar](https://github.com/trh4ckn0n/avatar) | Aucune description | Python | 0⭐ | 0🍴 | 22 Mar 2025 | ❌ |
 | [avinal](https://github.com/trh4ckn0n/avinal) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
@@ -79,7 +80,6 @@
 | [escrow](https://github.com/trh4ckn0n/escrow) | Aucune description | Python | 0⭐ | 0🍴 | 02 Mar 2025 | ❌ |
 | [expdf-trkn](https://github.com/trh4ckn0n/expdf-trkn) | Hack a victim just sending malicious pdf | Shell | 0⭐ | 0🍴 | 19 Feb 2025 | ❌ |
 | [fast-mail-bomber](https://github.com/trh4ckn0n/fast-mail-bomber) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 03 Apr 2025 | ❌ |
-| [fb-downloder](https://github.com/trh4ckn0n/fb-downloder) | FB Video Downloader | CSS | 0⭐ | 0🍴 | 15 Apr 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
