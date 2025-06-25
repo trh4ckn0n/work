@@ -64,7 +64,7 @@
 | [BlackMamba](https://github.com/trh4ckn0n/BlackMamba) | C2/post-exploitation framework | Non spécifié | 0⭐ | 0🍴 | 14 Apr 2025 | ❌ |
 | [bluu](https://github.com/trh4ckn0n/bluu) | Aucune description | CSS | 0⭐ | 0🍴 | 07 Apr 2025 | ❌ |
 | [btexchange](https://github.com/trh4ckn0n/btexchange) | Aucune description | Python | 0⭐ | 0🍴 | 09 May 2025 | ❌ |
-| [capNcook](https://github.com/trh4ckn0n/capNcook) | capNcook - a dark web exploration tool | HTML | 0⭐ | 0🍴 | 24 Jun 2025 | ❌ |
+| [capNcook](https://github.com/trh4ckn0n/capNcook) | capNcook - a dark web exploration tool | HTML | 0⭐ | 1🍴 | 24 Jun 2025 | ❌ |
 | [chall-ua-captcha](https://github.com/trh4ckn0n/chall-ua-captcha) | Aucune description | Python | 0⭐ | 0🍴 | 14 Apr 2025 | ❌ |
 | [chatbot-streamlit-openai](https://github.com/trh4ckn0n/chatbot-streamlit-openai) | Streamlit + OpenAI = Interactive conversational chatbot using Python | Python | 0⭐ | 0🍴 | 05 Mar 2025 | ❌ |
 | [cod-ng-chall](https://github.com/trh4ckn0n/cod-ng-chall) | Aucune description | HTML | 0⭐ | 0🍴 | 30 Apr 2025 | ❌ |
