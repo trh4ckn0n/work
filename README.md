@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -74,12 +74,12 @@
 | [CVE-2023-29357](https://github.com/trh4ckn0n/CVE-2023-29357) | Microsoft SharePoint Server Elevation of Privilege Vulnerability | Non spécifié | 0⭐ | 0🍴 | 23 Apr 2025 | ❌ |
 | [CVE-2024-23334](https://github.com/trh4ckn0n/CVE-2024-23334) | Proof-of-Concept for LFI/Path Traversal vulnerability in Aiohttp =< 3.9.1 | Non spécifié | 0⭐ | 0🍴 | 30 May 2025 | ❌ |
 | [CVE-2025-27840](https://github.com/trh4ckn0n/CVE-2025-27840) | Expanded version of the code shown at RootedCON redone in python - CVE-2025-27840 | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
+| [CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703) | Remote code exec cent os web panel by trhacknon | Python | 0⭐ | 0🍴 | 26 Jun 2025 | ❌ |
 | [dall](https://github.com/trh4ckn0n/dall) | Aucune description | Python | 0⭐ | 0🍴 | 23 Mar 2025 | ❌ |
 | [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
 | [dallog](https://github.com/trh4ckn0n/dallog) | Aucune description | Python | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
 | [dallweb](https://github.com/trh4ckn0n/dallweb) | Aucune description | Python | 0⭐ | 0🍴 | 04 Apr 2025 | ❌ |
 | [delbck](https://github.com/trh4ckn0n/delbck) | Aucune description | Python | 0⭐ | 0🍴 | 22 Mar 2025 | ❌ |
-| [diy](https://github.com/trh4ckn0n/diy) | Aucune description | Python | 0⭐ | 0🍴 | 03 Mar 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
