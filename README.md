@@ -75,7 +75,7 @@
 | [CVE-2023-29357](https://github.com/trh4ckn0n/CVE-2023-29357) | Microsoft SharePoint Server Elevation of Privilege Vulnerability | Non spécifié | 0⭐ | 0🍴 | 23 Apr 2025 | ❌ |
 | [CVE-2024-23334](https://github.com/trh4ckn0n/CVE-2024-23334) | Proof-of-Concept for LFI/Path Traversal vulnerability in Aiohttp =< 3.9.1 | Non spécifié | 0⭐ | 0🍴 | 30 May 2025 | ❌ |
 | [CVE-2025-27840](https://github.com/trh4ckn0n/CVE-2025-27840) | Expanded version of the code shown at RootedCON redone in python - CVE-2025-27840 | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
-| [CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703) | Remote code exec cent os web panel by trhacknon | Python | 1⭐ | 1🍴 | 26 Jun 2025 | ❌ |
+| [CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703) | Remote code exec cent os web panel by trhacknon | Python | 1⭐ | 2🍴 | 26 Jun 2025 | ❌ |
 | [dall](https://github.com/trh4ckn0n/dall) | Aucune description | Python | 0⭐ | 0🍴 | 23 Mar 2025 | ❌ |
 | [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
 | [dallog](https://github.com/trh4ckn0n/dallog) | Aucune description | Python | 0⭐ | 0🍴 | 24 Mar 2025 | ❌ |
