@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media3.giphy.com/media/6CMWn0pl3y96h2iJrY/giphy.gif?cid=6c09b9527hvrzofkyejc26xpeln0un42rxamcyv9u1veoctf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -66,6 +66,7 @@
 | [BlackMamba](https://github.com/trh4ckn0n/BlackMamba) | C2/post-exploitation framework | Non spécifié | 0⭐ | 0🍴 | 14 Apr 2025 | ❌ |
 | [bluu](https://github.com/trh4ckn0n/bluu) | Aucune description | CSS | 0⭐ | 0🍴 | 07 Apr 2025 | ❌ |
 | [btexchange](https://github.com/trh4ckn0n/btexchange) | Aucune description | Python | 0⭐ | 0🍴 | 09 May 2025 | ❌ |
+| [CamPhish](https://github.com/trh4ckn0n/CamPhish) | Grab cam shots & GPS location from target's phone front camera or PC webcam just sending a link. | Non spécifié | 0⭐ | 0🍴 | 06 Aug 2025 | ❌ |
 | [capNcook](https://github.com/trh4ckn0n/capNcook) | capNcook - a dark web exploration tool | HTML | 0⭐ | 1🍴 | 24 Jun 2025 | ❌ |
 | [chall-ua-captcha](https://github.com/trh4ckn0n/chall-ua-captcha) | Aucune description | Python | 0⭐ | 0🍴 | 14 Apr 2025 | ❌ |
 | [challrepo](https://github.com/trh4ckn0n/challrepo) | Aucune description | CSS | 0⭐ | 0🍴 | 25 Jun 2025 | ❌ |
@@ -79,7 +80,6 @@
 | [CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703) | Remote code exec cent os web panel by trhacknon | Python | 2⭐ | 2🍴 | 29 Jun 2025 | ❌ |
 | [dall](https://github.com/trh4ckn0n/dall) | Aucune description | Python | 0⭐ | 0🍴 | 23 Mar 2025 | ❌ |
 | [dalle-playground](https://github.com/trh4ckn0n/dalle-playground) | Aucune description | Non spécifié | 0⭐ | 0🍴 | 20 Feb 2025 | ❌ |
-| [dallgen](https://github.com/trh4ckn0n/dallgen) | Aucune description | Python | 0⭐ | 0🍴 | 27 Jun 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
