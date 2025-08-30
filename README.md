@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-    <img src="https://media0.giphy.com/media/DqiMTFxiXx0VaVZQbF/giphy.gif?cid=6c09b952fmcs777wkiz4sumix203z9srxl9h7f5azg9fdo1a&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
+    <img src="https://media4.giphy.com/media/SUF5PbfnRvKz0AN9Ev/giphy.gif?cid=6c09b952brz4j11ztso2m4xbw6wis9k2m32xr6gc385qlcpu&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="100%" />
 </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%" style="border-radius: 5px; border: 3px solid #39FF14; box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;" /></p>
@@ -79,7 +79,7 @@
 | [CVE-2023-29357](https://github.com/trh4ckn0n/CVE-2023-29357) | Microsoft SharePoint Server Elevation of Privilege Vulnerability | Non spécifié | 0⭐ | 0🍴 | 23 Apr 2025 | ❌ |
 | [CVE-2024-23334](https://github.com/trh4ckn0n/CVE-2024-23334) | Proof-of-Concept for LFI/Path Traversal vulnerability in Aiohttp =< 3.9.1 | Non spécifié | 0⭐ | 0🍴 | 30 May 2025 | ❌ |
 | [CVE-2025-27840](https://github.com/trh4ckn0n/CVE-2025-27840) | Expanded version of the code shown at RootedCON redone in python - CVE-2025-27840 | Non spécifié | 0⭐ | 0🍴 | 12 Mar 2025 | ❌ |
-| [CVE-2025-48703](https://github.com/trh4ckn0n/CVE-2025-48703) | Remote code exec cent os web panel by trhacknon | Python | 2⭐ | 2🍴 | 29 Jun 2025 | ❌ |
+| [CVE-2025-43300](https://github.com/trh4ckn0n/CVE-2025-43300) | This is POC for IOS 0click CVE-2025-43300 | Non spécifié | 0⭐ | 0🍴 | 30 Aug 2025 | ❌ |
 
 <p align="center"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"></p>
 
